@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
+import { ComputerCanvas } from './canvas'
 
 const Hero = () => {
   return (
@@ -18,11 +18,10 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, We're <span className='text-[#915eff]'>Vorps Tech</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 `}>We are a team of talented developers <br className='sm:block hidden'/> making websites and apps</p>
         </div>
-
       </div>
-
-
-
+      
+        <ComputerCanvas/>
+      
     </section>
   )
 }
