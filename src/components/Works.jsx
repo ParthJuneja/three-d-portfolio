@@ -80,7 +80,7 @@ const Works = () => {
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p variants={fadeIn('','',0.1,1)} className='mt-3 text-[17px] max-w-3xl leading-[30px] text-secondary'>
+        <motion.p variants={fadeIn('','',0.1,1)} className='mt-3 text-[17px] max-w-3xl mx-auto leading-[30px] text-secondary'>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum eaque quaerat quam quibusdam provident explicabo in dignissimos itaque sint, veritatis non cum harum, voluptatibus minus iure quo excepturi ex! Impedit.
         </motion.p>
       </div>
