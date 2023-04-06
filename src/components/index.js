@@ -7,13 +7,11 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
-import HeroUI from './HeroUI';
 import Uifeatures from './Uifeatures';
 
 export {
   Uifeatures,
   Hero,
-  HeroUI,
   Navbar,
   About,
   Tech,
