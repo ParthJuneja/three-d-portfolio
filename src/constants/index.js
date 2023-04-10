@@ -204,7 +204,7 @@ const projects = [
   {
     name: "Bonzo Tambola",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "App to play Tambola, a popular Indian lottery game. It is a multiplayer game where players can play with their friends and family.",
     tags: [
       {
         name: "react",
@@ -223,9 +223,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Vows n Views",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Wedding Planning App that helps couples plan their wedding and manage their guest list. It also helps them find vendors for their wedding.",
     tags: [
       {
         name: "react",
