@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
-import { SocialMedia, Webdev, Mobiledev, Uifeatures } from './components'
+import { SocialMedia, Webdev, Mobiledev, Uifeatures, Contact } from './components'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Topwrapper } from './hoc'
 import Privacy from './constants/privacy'
@@ -14,6 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App/>} />
+        {/* <Route path="/#contact" element={<Contact/>} /> */}
         <Route path="/uiux" element={<Topwrapper><Uifeatures /></Topwrapper>} />
         <Route path="/web" element={<Topwrapper><Webdev /></Topwrapper>} />
         <Route path="/mobile" element={<Topwrapper> <Mobiledev /> </Topwrapper>} />

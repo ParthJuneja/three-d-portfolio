@@ -2,8 +2,7 @@ import React from 'react'
 
 const Fcard = () => {
   return (
-    <div>
-
+    <div className='py-5'>
       <div class="flex-wrap items-center justify-center gap-8 text-center sm:flex">
         <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
           <div class="flex-shrink-0">

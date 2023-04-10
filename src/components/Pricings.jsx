@@ -11,7 +11,7 @@ const Pricings = () => {
                             Pricings
                         </h3>
                         <p class="mt-6 text-base leading-6 text-gray-500 dark:text-gray-200">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut
+                            We believe in the power of simplicity. That's why we offer a simple pricing plan for everyone.
                         </p>
                         <div class="mt-8">
                             <div class="flex items-center">
@@ -30,7 +30,7 @@ const Pricings = () => {
                                         </svg>
                                     </div>
                                     <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                        All illimited components
+                                        All the source files
                                     </p>
                                 </li>
                                 <li class="flex items-start lg:col-span-1">
@@ -41,7 +41,7 @@ const Pricings = () => {
                                         </svg>
                                     </div>
                                     <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                        Own custom Tailwind styles
+                                        Complete Backend Support
                                     </p>
                                 </li>
                                 <li class="flex items-start lg:col-span-1">
@@ -52,7 +52,7 @@ const Pricings = () => {
                                         </svg>
                                     </div>
                                     <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                        Unlimited Templates
+                                        24/7 Support
                                     </p>
                                 </li>
                                 <li class="flex items-start lg:col-span-1">
@@ -63,7 +63,7 @@ const Pricings = () => {
                                         </svg>
                                     </div>
                                     <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                        Free premium dashboard
+                                        Custom Designs
                                     </p>
                                 </li>
                                 <li class="flex items-start lg:col-span-1">
@@ -74,7 +74,7 @@ const Pricings = () => {
                                         </svg>
                                     </div>
                                     <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                        Best ranking
+                                        Marketing Support
                                     </p>
                                 </li>
                                 <li class="flex items-start lg:col-span-1">
@@ -85,7 +85,7 @@ const Pricings = () => {
                                         </svg>
                                     </div>
                                     <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                        Premium svg
+                                        Industry Standard modern designs
                                     </p>
                                 </li>
                                 <li class="flex items-start lg:col-span-1">
@@ -96,7 +96,7 @@ const Pricings = () => {
                                         </svg>
                                     </div>
                                     <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                        Commercial use desings
+                                        Simplistic UI and UX
                                     </p>
                                 </li>
                             </ul>
