@@ -18,6 +18,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/digital" element={<Topwrapper> <SocialMedia />   </Topwrapper>} />
       </Routes>
     </BrowserRouter>
-    <SocialMedia />
   </React.StrictMode>,
 )

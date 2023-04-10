@@ -81,7 +81,7 @@ const Works = () => {
 
       <div className='w-full flex'>
         <motion.p variants={fadeIn('','',0.1,1)} className='mt-3 text-[17px] max-w-3xl mx-auto leading-[30px] text-secondary'>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum eaque quaerat quam quibusdam provident explicabo in dignissimos itaque sint, veritatis non cum harum, voluptatibus minus iure quo excepturi ex! Impedit.
+          Here are some of our previous works and projects we have completed for our clients.
         </motion.p>
       </div>
 

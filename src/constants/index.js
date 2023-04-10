@@ -123,7 +123,7 @@ const experiences = [
     title: "React.js Developmet",
     company_name: "Web",
     icon: starbucks,
-    iconBg: "#383E56",
+    iconBg: "#292c33",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
