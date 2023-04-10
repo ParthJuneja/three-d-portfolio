@@ -32,7 +32,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Services",
   },
   {
     id: "contact",
@@ -126,10 +126,10 @@ const experiences = [
     iconBg: "#292c33",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "From easy solution to complex structures, we build apps and websites",
+      "Wordpress Django MongoDB AWS Services",
+      "Google Search Console Sitemap  C#  C++  Python  Dart",
+      "HTML CSS  JS APIs Integration  Ad mob  Payment gateways MySQL Database Management"
     ],
   },
   {
@@ -152,10 +152,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Creating ecommerce websites using Shopify",
+      "Creating custom themes for Shopify",
+      "Helping you ship your product to your customers without any hassle",
+      "Helping you with your marketing and advertising campaigns"
     ],
   },
   {
@@ -165,10 +165,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Complete UI & UX Designing",
+      "Research and Developement of New Technologies",
+      "Easy Solutions with Creative designs",
+      "Trending Web / App Designs"
     ],
   },
 ];
