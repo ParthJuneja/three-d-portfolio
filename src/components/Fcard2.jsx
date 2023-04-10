@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Fcard = () => {
+const Fcard2 = () => {
   return (
     <div>
 
@@ -15,10 +15,10 @@ const Fcard = () => {
             </div>
           </div>
           <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
-            UI design
+            Google Analytics setup
           </h3>
           <p class="py-4 text-gray-500 text-md dark:text-gray-300">
-            Encompassing today's website design technology to integrated and build solutions relevant to your business.
+            We will setup Google Analytics, Google Merchant, Google Tag manager and Google Ads for your website and help you understand the data.
           </p>
         </div>
         <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 sm:mt-16 md:mt-20 lg:mt-24 dark:bg-gray-800">
@@ -31,10 +31,10 @@ const Fcard = () => {
             </div>
           </div>
           <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
-            UX Design
+            Facebook and Instagram Ads
           </h3>
           <p class="py-4 text-gray-500 text-md dark:text-gray-300">
-            Creating a user experience that is intuitive, easy to use and enjoyable.
+            We will help you setup Facebook and Instagram Ads and help you understand the data and expand your reach.
           </p>
         </div>
         <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
@@ -47,10 +47,10 @@ const Fcard = () => {
             </div>
           </div>
           <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
-            Digital Marketing
+            Facebook Pixel
           </h3>
           <p class="py-4 text-gray-500 text-md dark:text-gray-300">
-            Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
+            We also offer Snapchat and Reddit ads.
           </p>
         </div>
       </div>
@@ -59,4 +59,4 @@ const Fcard = () => {
   )
 }
 
-export default Fcard
+export default Fcard2
