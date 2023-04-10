@@ -44,18 +44,22 @@ const services = [
   {
     title: "Web Development",
     icon: web,
+    key:  'web'
   },
   {
     title: "Mobile App Development",
     icon: mobile,
+    key:  'mobile'
   },
   {
     title: "UI/UX Design",
     icon: backend,
+    key:  'uiux'
   },
   {
-    title: "Social Media Marketing",
+    title: "Digital Marketing",
     icon: creator,
+    key:  'digital'
   },
 ];
 

@@ -8,6 +8,9 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Uifeatures from './Uifeatures';
+import SocialMedia from './SocialMedia';
+import Webdev from './Webdev';
+import Mobiledev from './Mobiledev';
 
 export {
   Uifeatures,
@@ -22,5 +25,8 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputerCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  SocialMedia,
+  Webdev,
+  Mobiledev,
 }

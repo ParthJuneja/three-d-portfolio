@@ -1,7 +1,6 @@
 import React from 'react'
-import Fcard from './Fcard'
 
-const Uifeatures = () => {
+const Mobiledev = () => {
     return (
         <div className='wrapper-body'>
 
@@ -9,13 +8,12 @@ const Uifeatures = () => {
                 <div class="text-start w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
                     <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
                         <span class="block">
-                            UI UX design
+                            Mobile App Development
                         </span>
                         <span class="block text-indigo-500">
-                            For your Website.
+                            For your business.
                         </span>
                     </h2>
-
                     <div class="lg:mt-0 lg:flex-shrink-0">
                         <div class="mt-12 inline-flex rounded-md shadow">
                             <button type="button" class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
@@ -25,9 +23,7 @@ const Uifeatures = () => {
                     </div>
                 </div>
             </div>
-            
-            <Fcard/>
-            
+
             <div class="relative max-w-screen-xl mx-6 p-4 px-4 bg-white dark:bg-gray-800 sm:px-6 lg:px-8 py-26 lg:mt-20">
                 <div class="relative">
                     <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
@@ -36,10 +32,10 @@ const Uifeatures = () => {
                                 Features
                             </p>
                             <h4 class="mt-2 text-2xl font-extrabold leading-8 text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
-                                Complete design of UI UX 
+                                Complete app from scratch
                             </h4>
                             <p class="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
-                                We offer a complete design of the user interface and user experience of your website. We will create a unique design that will make your website stand out from the competition. Making your website more attractive and easier to use.
+                                We help you choose the best platform for your business and build a iOS/Android that is easy to use and maintain.
                             </p>
                             <ul class="gap-6 mt-8 md:grid md:grid-cols-2">
                                 <li class="mt-6 lg:mt-0">
@@ -51,7 +47,7 @@ const Uifeatures = () => {
                                             </svg>
                                         </span>
                                         <span class="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
-                                            Figma and Adobe XD designs
+                                            Atrractive and modern app using Flutter and React Native
                                         </span>
                                     </div>
                                 </li>
@@ -308,4 +304,4 @@ const Uifeatures = () => {
     )
 }
 
-export default Uifeatures
+export default Mobiledev
