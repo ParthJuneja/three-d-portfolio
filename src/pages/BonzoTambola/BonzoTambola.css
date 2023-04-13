@@ -100,11 +100,11 @@ background-color:#3DADA9 ;
   line-height: 1px;
   font-size: 30px;
 }
- ul li a{
+ /* ul li a{
   text-decoration: none;
   color: black;
-  align-items: center;
-}
+  align-items: center; */
+/* } */
 .flex-container1 {
   display: flex;
   flex-wrap: wrap;
@@ -663,7 +663,7 @@ header {
   background-color: pink;
 }
 
-nav {
+/* nav {
   width: 90%;
   max-width: 1000px;
   height: 7vh;
@@ -675,7 +675,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: baseline;
-}
+} */
 
 nav .logo {
 
@@ -690,11 +690,11 @@ nav .logo {
   display: flex;
   gap: 20px;
 }
- li a:hover{
+ /* li a:hover{
   color: #FDE200;;
   text-decoration: none;
   list-style-type: none;
-}
+} */
 
 .navList button{
   margin-bottom: 20px;
