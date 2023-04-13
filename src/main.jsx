@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Topwrapper } from './hoc'
 import Privacy from './constants/privacy'
 import Tnc from './constants/Tnc'
+import BonzoTambola from './pages/BonzoTambola/BonzoTambola'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/digital" element={<Topwrapper> <SocialMedia />   </Topwrapper>} />
         <Route path = "/privacy" element={<Topwrapper> <Privacy/> </Topwrapper>}/>
         <Route path = "/tnc" element={<Topwrapper> <Tnc/> </Topwrapper>}/>
+        <Route path = "/BonzoTambola" element={<Topwrapper> <BonzoTambola/> </Topwrapper>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
