@@ -5,7 +5,7 @@ const Tnc = () => {
         <div className='wrapper'>
             <div class="page">
                 <div id="terms-and-conditions">
-                    <h1 align="center">TERMS & CONDITIONS</h1>
+                  <div align='center' style={{padding:'30px'}}> <h1  align="center" style={{fontWeight:'800px',fontSize:'25px'}}>TERMS & CONDITIONS</h1></div> 
                     <p>
                         A. GENERAL
                     </p>

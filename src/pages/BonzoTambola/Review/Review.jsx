@@ -1,124 +1,293 @@
 import React from 'react'
+import './Review.css'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-function Review() {
+import review1 from '../../../assets/review1.png'
+import review2 from '../../../assets/review2.png'
+import review3 from '../../../assets/review3.png'
+import review4 from '../../../assets/review4.png'
+
+
+import { EffectCoverflow, Pagination, Navigation } from 'swiper'
+
+import CardContent from '@mui/material/CardContent';
+
+import Avatar from '@mui/material/Avatar';
+import Typography from '@mui/material/Typography';
+
+
+
+
+
+const Review = () => {
+
+  const value = 3.4
+
   return (
+    <>
+      <div className='Reviewheader'><h4>What Our Customer has  to say about us</h4> </div>
     
-        <>
-  {/* Hello world */}
-  <div className="container-fluid">
-    <div align="center">
-      <h4
-        style={{
-          fontStyle: '"kghappy"',
-          fontSize: 30,
-          WebkitTextStroke: "1px black",
-          fontWeight: 800,
-          paddingBottom: 40,
-          color: "#FDE200",
-          paddingTop: 40
-        }}
-      >
-        Review
-      </h4>
-    </div>
-    <section id="testim" className="testim">
-      <div className="testim-cover">
-        <div className="wrap">
-          <span id="right-arrow" className="arrow right fa fa-chevron-right" />
-          <span id="left-arrow" className="arrow left fa fa-chevron-left " />
-          <ul id="testim-dots" className="dots">
-            <li className="dot active" />
-            {/*
-             */}
-            <li className="dot" />
-            {/*
-             */}
-            <li className="dot" />
-            {/*
-             */}
-            <li className="dot" />
-            {/*
-             */}
-            <li className="dot" />
-          </ul>
-          <div id="testim-content" className="cont">
-            <div className="active">
-              <div className="img" style={{ paddingTop: 40 }}>
-                <img
-                  src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/kartik-aaryan-1045198-08-12-2017-06-34-11.jpg"
-                  alt=""
-                />
+      <div align='center' className='container-fluid' id='fmki'>
+        <Swiper
+          slidesPerView={1}
+          effect={'coverflow'}
+          grabCursor={true}
+          // centeredSlides={true}
+          loop={true}
+          background={'transparent'}
+          coverflowEffect={
+            {
+              rotate: 0,
+              stretch: 100,
+              depth: 200,
+              modifier: 1.5,
+              slideShadows: false,
+              centeredSlides: true,
+              loop: true,
+              paginationClickable: true,
+              pagination: '.swiper-pagination',
+            }
+          }
+          pagination={{ el: '.swiper-pagination', clickable: true }}
+          navigation={{
+            nextEl: 'swiper-button-next',
+            prevEl: 'swiper-button-prev',
+            backgroundColor: 'transparent',
+            clickable: true,
+          }}
+          modules={[EffectCoverflow, Pagination, Navigation]}
+        >
+
+          <SwiperSlide sx={{}}>
+            <div className="card0">
+              <div align='center' className='gridcontainer' style={{ display: 'flex', justifyContent: 'space-evenly', paddingTop: '30px',width:'300px' }}>
+                <div className='gridleft' style={{ float: 'left' }}>
+                  <Avatar alt="Remy Sharp" src={review4} />
+                </div>
+                <div className='gridright' style={{ justifyContent: 'right', }}>
+                  <div >
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  </div>
+                  {/* <div >
+                    <Box
+                      sx={{
+                        width: 200,
+                        display: 'flex',
+                        alignItems: 'center',
+
+
+                      }}
+                    >
+                      <Rating
+                        name="text-feedback"
+                        value={value}
+                        readOnly
+                        precision={0.5}
+                        sx={{
+                          fontSize: "1.5rem"
+                        }}
+
+                        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="1.5rem" />}
+                      />
+
+                      <Box sx={{ ml: 2 }}></Box>
+                    </Box>
+                  </div> */}
+                </div>
               </div>
-              <h2>Lorem P. Ipsum</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
-              </p>
+              <CardContent >
+
+                <Typography variant="body2" sx={{fontSize:'20px',color:'black'}} >
+                In India, the game is often misspelled as Tambola, although Tombola is
+                 the official spelling. Tickets are distributed among the players and the 
+                 presenter announces the numbers in an exciting way. One by one the players 
+                 claim the prizes and win either real money (which is decided before starting the game)
+                  or a gift.
+                </Typography>
+              </CardContent>
             </div>
-            <div>
-              <div className="img" style={{ paddingTop: 40 }}>
-                <img
-                  src="https://timesofindia.indiatimes.com/thumb/msid-75752690,width-800,height-600,resizemode-4/75752690.jpg"
-                  alt=""
-                />
+
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="card0">
+            <div align='center' className='gridcontainer' style={{ display: 'flex', justifyContent: 'space-evenly', paddingTop: '30px',width:'300px' }}>
+                <div className='gridleft' style={{ float: 'left' }}>
+                  <Avatar alt="Remy Sharp" src={review1} />
+                </div>
+                <div className='gridright' style={{ justifyContent: 'right', }}>
+                  <div >
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  </div>
+                  {/* <div >
+                    <Box
+                      sx={{
+                        width: 200,
+                        display: 'flex',
+                        alignItems: 'center',
+
+
+                      }}
+                    >
+                      <Rating
+                        name="text-feedback"
+                        value={value}
+                        readOnly
+                        precision={0.5}
+                        sx={{
+                          fontSize: "1.5rem"
+                        }}
+
+                        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="1.5rem" />}
+                      />
+
+                      <Box sx={{ ml: 2 }}></Box>
+                    </Box>
+                  </div> */}
+                </div>
               </div>
-              <h2>Mr. Lorem Ipsum</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
-              </p>
+              <CardContent >
+
+                <Typography variant="body2" sx={{fontSize:'20px',color:'black'}} >
+                In India, the game is often misspelled as Tambola, although Tombola is
+                 the official spelling. Tickets are distributed among the players and the 
+                 presenter announces the numbers in an exciting way. One by one the players 
+                 claim the prizes and win either real money (which is decided before starting the game)
+                  or a gift.
+                </Typography>
+              </CardContent>
             </div>
-            <div>
-              <div className="img" style={{ paddingTop: 40 }}>
-                <img
-                  src="https://p16.muscdn.com/img/musically-maliva-obj/1627333501517830~c5_720x720.jpeg"
-                  alt=""
-                />
+
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="card0">
+            <div align='center' className='gridcontainer' style={{ display: 'flex', justifyContent: 'space-evenly', paddingTop: '30px',width:'300px' }}>
+                <div className='gridleft' style={{ float: 'left' }}>
+                  <Avatar alt="Remy Sharp" src={review2} />
+                </div>
+                <div className='gridright' style={{ justifyContent: 'right', }}>
+                  <div >
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  </div>
+                  {/* <div >
+                    <Box
+                      sx={{
+                        width: 200,
+                        display: 'flex',
+                        alignItems: 'center',
+
+
+                      }}
+                    >
+                      <Rating
+                        name="text-feedback"
+                        value={value}
+                        readOnly
+                        precision={0.5}
+                        sx={{
+                          fontSize: "1.5rem"
+                        }}
+
+                        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="1.5rem" />}
+                      />
+
+                      <Box sx={{ ml: 2 }}></Box>
+                    </Box>
+                  </div> */}
+                </div>
               </div>
-              <h2>Lorem Ipsum</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
-              </p>
+              <CardContent >
+
+                <Typography variant="body2" sx={{fontSize:'20px',color:'black'}} >
+                In India, the game is often misspelled as Tambola, although Tombola is
+                 the official spelling. Tickets are distributed among the players and the 
+                 presenter announces the numbers in an exciting way. One by one the players 
+                 claim the prizes and win either real money (which is decided before starting the game)
+                  or a gift.
+                </Typography>
+              </CardContent>
             </div>
-            <div>
-              <div className="img" style={{ paddingTop: 40 }}>
-                <img
-                  src="https://p16-sg-default.akamaized.net/aweme/1080x1080/tiktok-obj/1666413671597057.jpeg"
-                  alt=""
-                />
+
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="card0">
+            <div align='center' className='gridcontainer' style={{ display: 'flex', justifyContent: 'space-evenly', paddingTop: '30px',width:'300px' }}>
+                <div className='gridleft' style={{ float: 'left' }}>
+                  <Avatar alt="Remy Sharp" src={review3} />
+                </div>
+                <div className='gridright' style={{ justifyContent: 'right', }}>
+                  <div >
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  <span style={{fontSize:'30px',margin:'5px'}} class="fa fa-star checked"></span>
+                  </div>
+                  {/* <div >
+                    <Box
+                      sx={{
+                        width: 200,
+                        display: 'flex',
+                        alignItems: 'center',
+
+
+                      }}
+                    >
+                      <Rating
+                        name="text-feedback"
+                        value={value}
+                        readOnly
+                        precision={0.5}
+                        sx={{
+                          fontSize: "1.5rem"
+                        }}
+
+                        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="1.5rem" />}
+                      />
+
+                      <Box sx={{ ml: 2 }}></Box>
+                    </Box>
+                  </div> */}
+                </div>
               </div>
-              <h2>Lorem De Ipsum</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
-              </p>
+              <CardContent >
+
+                <Typography variant="body2" sx={{fontSize:'20px',color:'black'}} >
+                In India, the game is often misspelled as Tambola, although Tombola is
+                 the official spelling. Tickets are distributed among the players and the 
+                 presenter announces the numbers in an exciting way. One by one the players 
+                 claim the prizes and win either real money (which is decided before starting the game)
+                  or a gift.
+                </Typography>
+              </CardContent>
             </div>
-            <div>
-              <div className="img" style={{ paddingTop: 40 }}>
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSKLJe1Lrz2N3ufVSwQokSJ79jGBbIptXuVnsdxMmNUlE14ohwp&usqp=CAU"
-                  alt=""
-                />
-              </div>
-              <h2>Ms. Lorem R. Ipsum</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco.
-              </p>
-            </div>
+
+          </SwiperSlide>
+          <div className="slider-controler" >
+
+            <div className="swiper-pagination"></div>
+
           </div>
-        </div>
+        </Swiper>
       </div>
-    </section>
-  </div>
-</>
- 
+
+    </>
+
   )
 }
 

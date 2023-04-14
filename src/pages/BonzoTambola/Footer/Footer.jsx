@@ -56,7 +56,7 @@ function Footer() {
           <a href="">About US | </a>
           <a href="">RNG Certificate |</a>
           <a href="/privacy">Privacy policy |</a>
-          <a href="/terms&condition">Terms &amp; Conditions|</a>
+          <a href="/TermCondition">Terms &amp; Conditions|</a>
           <a href="/responsivegaming">Responsible Gaming |</a>
           <a href="/fairplay">Fair play|</a>
           <a href="">Blog|</a>

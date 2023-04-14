@@ -5,6 +5,29 @@
   justify-content:left;
 }
 
+.ididP{
+
+ justify-content:space-between;display:flex;margin-top:40px;margin-bottom:40px;
+ padding: 0px 30px 0px 30px;
+}
+.cardimage{
+display:flex;margin-top:40px;margin-bottom:40px;
+justify-content: space-evenly;
+}
+.inlinecard{
+  display: flex;
+  justify-content: space-between;
+}
+.bestapp{
+  padding: 20px;
+}
+
+#topimage{
+  padding: 0px;
+}
+#back{
+  background-color: #9EDBD8;
+}
 .money{
   color: #000;
   padding-left: 40px;
@@ -100,11 +123,7 @@ background-color:#3DADA9 ;
   line-height: 1px;
   font-size: 30px;
 }
- ul li a{
-  text-decoration: none;
-  color: black;
-  align-items: center;
-}
+
 .flex-container1 {
   display: flex;
   flex-wrap: wrap;
@@ -138,22 +157,18 @@ background-color:#3DADA9 ;
   }
   .flex-item-left600{
    justify-content: left;
+   padding-left: 40px;
   }
   .flex-item-right600{
     justify-content: right;
    }
    #app{padding-left:50px;padding-bottom:40px;padding-top:40px;}
-   #bestapp{
-  padding-left:50px;padding-bottom:40px;
-   }
-   #bestapp h4{
+ 
+   .bestapp h4{
     color: black;
     text-align: left;
    }
 
-   #Points{
-   padding-left: 70px;padding-bottom:8px;
-   }
    #buttonrow{
     padding-left:5px;padding-bottom:40px;
    }
@@ -452,6 +467,9 @@ background-color:#3DADA9 ;
 body {
   font-size: 14px;
 }
+.ididP{
+  display: none;
+}
 }
 
 @media all and (max-width: 500px) {
@@ -463,6 +481,9 @@ body {
   font-size: 30px;
   padding-left: 0px;
 }
+.ididP{
+display: none;
+}
 #rajorpng a{
   color: #92999f;
   font-size: 20px;
@@ -470,6 +491,9 @@ body {
   padding-right: 0px;
   font-weight:700 ;
 }
+.cardimage{
+  justify-content:center;display:inline;margin-top:40px;margin-bottom:40px
+  }
 .footer-links{
   padding-left: 0px;
 }
@@ -480,6 +504,9 @@ body {
  padding-left: 0px;
  padding-bottom: 20px;
 
+}
+#topimage{
+  padding-top: 70px;
 }
 #Paytment-Partners{
 
@@ -663,25 +690,7 @@ header {
   background-color: pink;
 }
 
-nav {
-  width: 90%;
-  max-width: 1000px;
-  height: 7vh;
-  min-height: 60px;
-  padding-top: 8px;
-  background-color: inherit;
-  color:  #FDE200;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: baseline;
-}
 
-nav .logo {
-
-  letter-spacing: 5px;
-  height:90; width:100;
-}
 
 .navList {
   font-size: 17px;
@@ -689,11 +698,6 @@ nav .logo {
   list-style: none;
   display: flex;
   gap: 20px;
-}
- li a:hover{
-  color: #FDE200;;
-  text-decoration: none;
-  list-style-type: none;
 }
 
 .navList button{
@@ -876,19 +880,12 @@ nav a {
 
 
 
-
-
-  /*.flex-container{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 150px;
-    background-image:url('assets/firstslide.png') ;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    height: 650px;
-    
- 
-  }*/
+  .Points h5{
+    justify-content: center;
+   padding: 20px;
+    text-align: center;
+   
+   }
   .flex-container{
     display: flex;
     justify-content: space-between;
@@ -998,6 +995,7 @@ background-color: transparent
 }
 .flex-item-left600{
  justify-content: center;
+ padding-left: 0px;
 }
 .flex-item-right600{
   justify-content: center;
@@ -1010,16 +1008,16 @@ background-color: transparent
  
  }
  #app{justify-content:'center';padding-bottom:40px;padding-top:40px;padding-left: 0px;padding-right: 0px;text-align: center;}
- #bestapp{
-padding-left:50px;padding-bottom:40px;padding-left: 0px;padding-right: 0px;text-align: center;
+ #bestapp h4{
+text-align: center;
+padding: 20px;
  }
- #pointrow{
- padding-left:0px;padding-bottom:70px;text-align: center;
+ #pointrow h5{
+text-align: center;
  }
- #Points{
+ .Points h5{
  justify-content: center;
- padding-left: 0px;
- padding-right: 0px;
+padding: 20px;
  text-align: center;
 
 }

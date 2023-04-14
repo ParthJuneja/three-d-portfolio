@@ -50,7 +50,7 @@ const ProjectCard = ({
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>
-          <Link to='/BonzoTambola'>{name}</Link>
+          {name}
              </h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>

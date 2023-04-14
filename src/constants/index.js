@@ -21,7 +21,6 @@ import {
   shopify,
   carrent,
   jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -220,7 +219,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "/BonzoTambola",
   },
   {
     name: "Vows n Views",
@@ -241,7 +240,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "/VowsnView",
   },
   // {
   //   name: "Trip Guide",

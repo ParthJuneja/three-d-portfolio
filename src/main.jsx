@@ -8,6 +8,10 @@ import { Topwrapper } from './hoc'
 import Privacy from './constants/privacy'
 import Tnc from './constants/Tnc'
 import BonzoTambola from './pages/BonzoTambola/BonzoTambola'
+import Responsivegaming from './constants/Responsivegaming'
+import VowsnView from './pages/VowsnView/VowsnView'
+import Fairplay from './constants/Fairplay'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -23,6 +27,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path = "/privacy" element={<Topwrapper> <Privacy/> </Topwrapper>}/>
         <Route path = "/tnc" element={<Topwrapper> <Tnc/> </Topwrapper>}/>
         <Route path = "/BonzoTambola" element={<Topwrapper> <BonzoTambola/> </Topwrapper>}/>
+        <Route path = "/VowsnView" element={<Topwrapper> <VowsnView/> </Topwrapper>}/>
+        <Route path = "/TermCondition" element={<Topwrapper> <Tnc/> </Topwrapper>}/>
+        <Route path = "/Responsivegaming" element={<Topwrapper> <Responsivegaming/> </Topwrapper>}/>
+        <Route path = "/Fairplay" element={<Topwrapper> <Fairplay/> </Topwrapper>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

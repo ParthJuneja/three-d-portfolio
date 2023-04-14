@@ -24,7 +24,7 @@ import demo from '../../assets/demo.png'
 import rajor from '../../assets/rajor.png'
 import juspay from '../../assets/juspay.png'
 import casefree from '../../assets/casefree.png'
-
+import Navbar from './Navbar/Navbar'
 
 import googleplay from '../../assets/googleplay.png'
 
@@ -33,14 +33,16 @@ function BonzoTambola() {
 
   return (
  <>
-    <div>
+   <Navbar />
+    <div id='back'>
+ 
       <div className='container-fluid' style={{backgroundColor:'#9EDBD8'}} >
         <img src={tambolaPage} alt="" />
       </div>
       <div class="container-fluid">
   <div align="center" id="heading"><h3 >Why Play Real Money Games On Tambola</h3></div>
 
-  <div style={{justifyContent:'space-between',display:'flex',marginTop:'40px',marginBottom:'40px'}}>
+  <div className='ididP'>
     <div><img src={withdraw} alt="" /></div>
     <div> <img src={security} alt="" /></div>
     <div><img src={tournament} alt="" /></div>
@@ -48,6 +50,21 @@ function BonzoTambola() {
     <div> <img src={certified} alt="" /></div>
     <div><img src={customer} alt="" /></div>
   </div>
+  <div className='row'>
+  <div className="container-fluid" id="mediaview" >
+  <div align="center" className="row" style={{display:'flex',justifyContent:'space-evenly',padding:'40px'}}>
+    <div className="col"><img src={tournament} alt=""  style={{width:'80px',height:'80px'}} /></div>
+    <div className="col"><img src={withdraw} alt="" style={{width:'80px',height:'80px'}} /></div>
+    <div className="col"><img src={security} alt="" style={{width:'80px',height:'80px'}} /></div>
+  </div>
+  <div align="center" className="row" style={{display:'flex',justifyContent:'space-evenly',padding:'40px'}}>
+    <div className="col"><img src={cashback} alt="" style={{width:'80px',height:'80px'}} /></div>
+    <div className="col"><img src={certified} alt="" style={{width:'80px',height:'80px'}} /></div>
+    <div className="col"><img src={customer} alt="" style={{width:'80px',height:'80px'}} /></div>
+  </div>
+</div>
+
+</div>
   
 
 </div>
@@ -66,13 +83,13 @@ function BonzoTambola() {
         Download Our App
       </h2>
     </div>
-    <div id="bestapp">
+    <div className="bestapp">
       <h4>
         Best app that will helpyou to earn money by playing intellectual game
       </h4>
     </div>
     <div className="row" id="pointrow">
-      <div id="Points">
+      <div className="Points">
         <h5>
           <div style={{display:'flex'}}>
           <div><img src={tick} alt="" /></div>
@@ -82,7 +99,7 @@ function BonzoTambola() {
   
         </h5>
       </div>
-      <div id="Points">
+      <div className="Points">
       <h5>
           <div style={{display:'flex'}}>
           <div><img src={tick} alt="" /></div>
@@ -91,7 +108,7 @@ function BonzoTambola() {
       </h5>
        
       </div>
-      <div id="Points">
+      <div class="Points">
       <h5>
           <div style={{display:'flex'}}>
           <div><img src={tick} alt="" /></div>
@@ -147,9 +164,9 @@ function BonzoTambola() {
 
 <Review/>
 </div>
-
+<Footer />
     </div>
-    <Footer />
+    
 
  </>
   )
