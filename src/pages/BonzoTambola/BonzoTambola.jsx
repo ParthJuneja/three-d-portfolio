@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 import  { useLayoutEffect } from 'react'
-
-
 import Review from './Review/Review'
-
 import './BonzoTambola.css'
 import review1 from '../../assets/review1.png'
 import review2 from '../../assets/review2.png'
@@ -42,7 +39,7 @@ function BonzoTambola() {
       <div class="container-fluid">
   <div align="center" id="heading"><h3 >Why Play Real Money Games On Tambola</h3></div>
 
-  <div className='ididP'>
+  <div className='ididp'>
     <div><img src={withdraw} alt="" /></div>
     <div> <img src={security} alt="" /></div>
     <div><img src={tournament} alt="" /></div>

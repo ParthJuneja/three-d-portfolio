@@ -112,8 +112,6 @@ background-color:#3DADA9 ;
     font-size: 13px;
   }
 
-
-
 .flex-container4 > div {
   
   color: white;
@@ -123,9 +121,6 @@ background-color:#3DADA9 ;
   line-height: 1px;
   font-size: 30px;
 }
-
-
-
 
 .flex-container1 {
   display: flex;
@@ -460,9 +455,6 @@ nav a {
   flex: 50%;
   text-align: right;
 }
-
-
-
 
 @media screen and (max-width: 768px) {
 
