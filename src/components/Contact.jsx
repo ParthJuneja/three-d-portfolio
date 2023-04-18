@@ -37,7 +37,7 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "",
+          to_name: "Vorps Technologies",
           from_email: form.email,
           to_email: "vorpstechnologies@gmail.com",
           message: form.message,
@@ -47,7 +47,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you for your interest. We will surely get back to you.");
 
           setForm({
             name: "",
@@ -70,7 +70,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.65] mx-auto bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.65] mx-auto   bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
