@@ -207,15 +207,15 @@ const projects = [
       "App to play Tambola, a popular Indian lottery game. It is a multiplayer game where players can play with their friends and family.",
     tags: [
       {
-        name: "react",
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "expressjs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "flutter",
         color: "pink-text-gradient",
       },
     ],
@@ -228,42 +228,84 @@ const projects = [
       "A Wedding Planning App that helps couples plan their wedding and manage their guest list. It also helps them find vendors for their wedding.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "DropSpot",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs-expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Poss",
+    description:
+      "Website for dog parents to find the best dog products and services. It also helps them find dog-friendly places and events.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs-expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Kosha",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
