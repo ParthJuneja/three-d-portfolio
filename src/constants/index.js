@@ -190,14 +190,14 @@ const testimonials = [
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-  // {
-  //   testimonial:
-  //     "After they optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //   name: "Lisa Wang",
-  //   designation: "CTO",
-  //   company: "456 Enterprises",
-  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
-  // },
+  {
+    testimonial:
+      "After they optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
 ];
 
 const projects = [
@@ -275,6 +275,27 @@ const projects = [
       },
       {
         name: "nodejs-expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Tatsat Wellness",
+    description:
+      "Wellness App that helps users find the best wellness services and products. It also helps them find wellness events and workshops.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
         color: "green-text-gradient",
       },
       {

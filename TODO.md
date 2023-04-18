@@ -2,8 +2,7 @@
 ## TODO
   - services drop down menu 
   - google form ??
-  - easy to complex solutions create section
-  -  tatsat wellness (nodejs). projects to be added in card section
-  - change pics inside cards.
+  - projects descriptions and image
   - machine learning
+  - cards inside design changes
   - team section
