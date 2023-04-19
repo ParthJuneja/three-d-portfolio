@@ -124,20 +124,34 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developmet",
-    company_name: "Web",
+    title: "UI/UX Design",
+    company_name: "Figma",
+    icon: starbucks,
+    iconBg: "#292c33",
+    date: "March 2020 - April 2021",
+    points: [
+      "We design and develop websites and mobile apps that are beautiful, functional, and easy to use.",
+      "From scratch, designs are created to meet your business goals and objectives.",
+      "Responsive and modern designs that are easy to navigate and use.",
+      "Beautiful UI and easy to use UX.",
+    ],
+  },
+  {
+    title: "React.js / ReactNative Developmet",
+    company_name: "Web and App",
     icon: starbucks,
     iconBg: "#292c33",
     date: "March 2020 - April 2021",
     points: [
       "From easy solution to complex structures, we build apps and websites",
       "Wordpress Django MongoDB AWS Services",
+      "Express.js Node.js React.js React Native",
       "Google Search Console Sitemap  C#  C++  Python  Dart",
       "HTML CSS  JS APIs Integration  Ad mob  Payment gateways MySQL Database Management"
     ],
   },
   {
-    title: "React Native Development",
+    title: "Flutter Development",
     company_name: "Android",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -173,19 +187,6 @@ const experiences = [
       "Make predictions using regression and classification algorithms",
       "Build recommender systems using collaborative filtering",
       "Help your website with machine learning",
-    ],
-  },
-  {
-    title: "React.js Developmet",
-    company_name: "Web",
-    icon: starbucks,
-    iconBg: "#292c33",
-    date: "March 2020 - April 2021",
-    points: [
-      "From easy solution to complex structures, we build apps and websites",
-      "Wordpress Django MongoDB AWS Services",
-      "Google Search Console Sitemap  C#  C++  Python  Dart",
-      "HTML CSS  JS APIs Integration  Ad mob  Payment gateways MySQL Database Management"
     ],
   },
 ];
