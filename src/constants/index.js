@@ -215,13 +215,13 @@ const experiences = [
     ],
   },
   {
-    title: "Machine Learning",
+    title: "Artificial Intelligence",
     company_name: "Python",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Develop and use machine learning models to solve real-world problems",
+      "With the help of machine learning models, we solve real-world problems",
       "Make predictions using regression and classification algorithms",
       "Build recommender systems using collaborative filtering",
       "Help your website with machine learning",
@@ -276,7 +276,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "/BonzoTambola",
   },
   {
     name: "Vows n Views",
