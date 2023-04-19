@@ -27,6 +27,13 @@ import {
   kohsha,
   tripguide,
   threejs,
+  chat,
+  notif,
+  bitcoin,
+  ticket,
+  gps,
+  ecommerce,
+  wallet,
 } from "../assets";
 
 export const navLinks = [
@@ -69,37 +76,37 @@ const services = [
 
 const features = [
   {
-    icon: html,
+    icon: chat,
     title: "Chat",
     description: "Website"
   },
   {
-    icon: html,
+    icon: notif,
     title: "Notifications",
     description: "Website"
   },
   {
-    icon: html,
+    icon: bitcoin,
     title: "Bitcoin",
     description: "Website"
   },
   {
-    icon: html,
+    icon: ticket,
     title: "Booking System",
     description: "Website"
   },
   {
-    icon: html,
+    icon: gps,
     title: "GPS",
     description: "Website"
   },
   {
-    icon: html,
+    icon: ecommerce,
     title: "E-Commerce",
     description: "Website"
   },
   {
-    icon: html,
+    icon: wallet,
     title: "Wallet",
     description: "Website"
   },

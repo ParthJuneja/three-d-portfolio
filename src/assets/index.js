@@ -25,6 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import bitcoin from "./company/bitcoin.png";
+import chat from "./company/chat.png";
+import ecommerce from "./company/ecommerce.png";
+import gps from "./company/gps.png";
+import notif from "./company/notif.png";
+import ticket from "./company/ticket.png";
+import wallet from "./company/wallet.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -35,6 +42,13 @@ import tatsat from "./tatsat.png";
 import kohsha from "./kohsha.png";
 
 export {
+  bitcoin,
+  chat,
+  ecommerce,
+  gps,
+  notif,
+  ticket,
+  wallet,
   dropspot,
   poss,
   tatsat,
