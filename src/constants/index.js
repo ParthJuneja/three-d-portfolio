@@ -70,37 +70,37 @@ const services = [
 const features = [
   {
     icon: html,
-    title: "HTML 5",
+    title: "Chat",
     description: "Website"
   },
   {
     icon: html,
-    title: "HTML 5",
+    title: "Notifications",
     description: "Website"
   },
   {
     icon: html,
-    title: "HTML 5",
+    title: "Bitcoin",
     description: "Website"
   },
   {
     icon: html,
-    title: "HTML 5",
+    title: "Booking System",
     description: "Website"
   },
   {
     icon: html,
-    title: "HTML 5",
+    title: "GPS",
     description: "Website"
   },
   {
     icon: html,
-    title: "HTML 5",
+    title: "E-Commerce",
     description: "Website"
   },
   {
     icon: html,
-    title: "HTML 5",
+    title: "Wallet",
     description: "Website"
   },
 ];
