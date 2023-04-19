@@ -12,7 +12,7 @@ const FeatureCard = ({ index, icon, title, additional }) => {
       <div className="flex-col  flex justify-center items-center">
         <div className="flex-shrink-0">
           <div className="relative block">
-            <img alt="feature-icon" src={icon} className="mx-auto object-cover rounded-full h-20 w-20 " />
+            <img alt="feature-icon" src={icon} className="mx-auto object-contain rounded-full h-20 w-20 " />
           </div>
         </div>
         <div className="mt-2 text-center flex flex-col">
@@ -47,7 +47,7 @@ const Features = () => {
           Integrating these features will help you to grow your business rapidly.
         </motion.p>
       </div>
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className=' justify-center mt-20 flex flex-wrap gap-7'>
         {features.map((feature, index, icon, title, additional) => (
           <FeatureCard key={`project-${index}`} index={index} icon={icon} title={title} additional={additional} {...feature} />
         ))}
