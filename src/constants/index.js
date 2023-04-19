@@ -21,6 +21,10 @@ import {
   shopify,
   carrent,
   jobit,
+  dropspot,
+  poss,
+  tatsat,
+  kohsha,
   tripguide,
   threejs,
 } from "../assets";
@@ -159,16 +163,29 @@ const experiences = [
     ],
   },
   {
-    title: "UI/UX Design",
-    company_name: "Figma",
+    title: "Machine Learning",
+    company_name: "Python",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Complete UI & UX Designing",
-      "Research and Developement of New Technologies",
-      "Easy Solutions with Creative designs",
-      "Trending Web / App Designs"
+      "Develop and use machine learning models to solve real-world problems",
+      "Make predictions using regression and classification algorithms",
+      "Build recommender systems using collaborative filtering",
+      "Help your website with machine learning",
+    ],
+  },
+  {
+    title: "React.js Developmet",
+    company_name: "Web",
+    icon: starbucks,
+    iconBg: "#292c33",
+    date: "March 2020 - April 2021",
+    points: [
+      "From easy solution to complex structures, we build apps and websites",
+      "Wordpress Django MongoDB AWS Services",
+      "Google Search Console Sitemap  C#  C++  Python  Dart",
+      "HTML CSS  JS APIs Integration  Ad mob  Payment gateways MySQL Database Management"
     ],
   },
 ];
@@ -246,7 +263,7 @@ const projects = [
   {
     name: "DropSpot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A platform for people to find stores and deliver their favorite products to their doorstep. It also helps them find the best deals and offers.",
     tags: [
       {
         name: "reactjs",
@@ -261,8 +278,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dropspot,
+    source_code_link: "https://dropspot.in/",
   },
   {
     name: "Poss",
@@ -282,13 +299,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: poss,
+    source_code_link: "https://possindia.in/",
   },
   {
     name: "Tatsat Wellness",
     description:
-      "Wellness App that helps users find the best wellness services and products. It also helps them find wellness events and workshops.",
+      "Yoga as a lifestyle, Body & Soul. Tatsat has interesting blog posts on creativity and design",
     tags: [
       {
         name: "nodejs",
@@ -303,13 +320,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tatsat,
+    source_code_link: "https://tatsat.club/",
   },
   {
-    name: "Kosha",
+    name: "Kohsha",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The range of products is procured from hand-picked local farms from the most nurtured soil in India, the Himalayan Ranges. ",
     tags: [
       {
         name: "nodejs",
@@ -324,8 +341,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: kohsha,
+    source_code_link: "https://www.kohsha.com/",
   },
 ];
 

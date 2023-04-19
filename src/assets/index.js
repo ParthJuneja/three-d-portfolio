@@ -29,8 +29,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import dropspot from "./dropspot.png";
+import poss from "./poss.png";
+import tatsat from "./tatsat.png";
+import kohsha from "./kohsha.png";
 
 export {
+  dropspot,
+  poss,
+  tatsat,
+  kohsha,
   logo,
   backend,
   creator,
