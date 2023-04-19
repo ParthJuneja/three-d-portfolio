@@ -137,7 +137,7 @@ const experiences = [
     ],
   },
   {
-    title: "React.js / ReactNative Developmet",
+    title: "ReactJS / React Native Developmet",
     company_name: "Web and App",
     icon: starbucks,
     iconBg: "#292c33",

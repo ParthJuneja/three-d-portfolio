@@ -6,6 +6,5 @@
   - card responsive 
   - ml add ai
   - features section
-  - testimonials padding responsive
   - cards inside design changes
   - team section
