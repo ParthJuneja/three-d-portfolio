@@ -11,8 +11,10 @@ import Uifeatures from './Uifeatures';
 import SocialMedia from './SocialMedia';
 import Webdev from './Webdev';
 import Mobiledev from './Mobiledev';
+import Features from './Features';
 
 export {
+  Features,
   Uifeatures,
   Hero,
   Navbar,

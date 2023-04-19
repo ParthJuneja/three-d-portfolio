@@ -67,6 +67,44 @@ const services = [
   },
 ];
 
+const features = [
+  {
+    icon: html,
+    title: "HTML 5",
+    description: "Website"
+  },
+  {
+    icon: html,
+    title: "HTML 5",
+    description: "Website"
+  },
+  {
+    icon: html,
+    title: "HTML 5",
+    description: "Website"
+  },
+  {
+    icon: html,
+    title: "HTML 5",
+    description: "Website"
+  },
+  {
+    icon: html,
+    title: "HTML 5",
+    description: "Website"
+  },
+  {
+    icon: html,
+    title: "HTML 5",
+    description: "Website"
+  },
+  {
+    icon: html,
+    title: "HTML 5",
+    description: "Website"
+  },
+];
+
 const technologies = [
   {
     name: "HTML 5",
@@ -347,4 +385,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, features };
