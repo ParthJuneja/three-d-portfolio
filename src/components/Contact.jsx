@@ -39,7 +39,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Vorps Technologies",
           from_email: form.email,
-          to_email: "vorpstechnologies@gmail.com",
+          to_email: "vorpsleads@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -76,7 +76,7 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <h3 className={styles.sectionSubText}>+1 (470) 500-5772 </h3>
         <h3 className={styles.sectionSubText}>+91 98110 41767</h3>
-        <a href="mailto:vorpstechnologies@gmail.com">
+        <a href="mailto:vorpsleads@gmail.com">
         <h3 className={'sm:text-[18px] text-[14px] text-secondary cursor-pointer tracking-wider'}>vorpstechnologies@gmail.com</h3>
         </a>
 
