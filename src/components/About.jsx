@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 const ServiceCard = ({ title, icon, index }) => {
   return (
-    <Tilt className='xs:w-[250px] xxs:w-[250px] w-full'>
+    <Tilt className='xs:w-[200px] xxs:w-[200px] xxs:h-[180px] w-full'>
       <motion.div variants={fadeIn("right","spring",0.5*index,0.75)} className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
         <div options={{
           max: 45,
@@ -45,7 +45,7 @@ const About = () => {
         We are a team of talented developers making websites and mobile apps. We are passionate about building excellent software that improves the lives of those around us. With us you get a dedicated team of experts who will work with you from concept to launch.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap xxs:gap-28 xxs:pl-3 xxs:mb-4 gap-10">
         {services.map((service, index) => (
           <Link to={`/${service.key}`}>
             <ServiceCard key={service.title} index={index} {...service}/>

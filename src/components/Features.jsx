@@ -8,15 +8,15 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const FeatureCard = ({ index, icon, title, additional }) => {
   return (
-    <div className="p-4">
-      <div className="flex-col  flex justify-center items-center">
-        <div className="flex-shrink-0">
+    <div className="p-4 xxs:flex-auto xxs:p-0 xxs:w-fit xxs:h-fit xxs:mt-1">
+      <div className="flex-col flex justify-center items-center">
+        <div className="flex-shrink-0 xxs:">
           <div className="relative block">
-            <img alt="feature-icon" src={icon} className="mx-auto object-contain rounded-full h-20 w-20 " />
+            <img alt="feature-icon" src={icon} className="mx-auto object-contain rounded-full h-20 w-20 xxs:h-10 xxs:w-10 " />
           </div>
         </div>
         <div className="mt-2 text-center flex flex-col">
-          <span className="text-lg font-medium text-gray-600 dark:text-white">
+          <span className="text-lg font-medium text-gray-600 xxs:text-sm dark:text-white">
             {title}
           </span>
           <span className="text-xs text-gray-400">
