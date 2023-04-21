@@ -47,7 +47,7 @@ const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+        className={`bg-tertiary rounded-2xl ${styles.padding} lg:min-h-[300px] md:min-h-[250px] sm:min-h-[250px] min-h-[200px]`} //problem here with xs
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>
