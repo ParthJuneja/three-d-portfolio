@@ -4,6 +4,7 @@ import Footer from './Footer'
 import Navbar from './Navbar'
 import Pricings from './Pricings'
 import Pagetitle from './Pagetitle'
+import { SectionWrapper } from '../hoc'
 
 const Uifeatures = () => {
     return (
@@ -85,12 +86,12 @@ const Uifeatures = () => {
                         <div class="relative mt-10 lg:-mx-4 relative-20 lg:mt-0 lg:col-start-1">
                             <div class="relative space-y-4">
                                 <div class="flex items-end justify-center space-x-4 lg:justify-start">
-                                    <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="src/assets/tripguide.png" alt="1" />
-                                    <img class="w-40 rounded-lg shadow-lg md:w-64" width="260" src="src/assets/tripguide.png" alt="2" />
+                                    <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="src/assets/uiux1.jpg" alt="1" />
+                                    <img class="w-40 rounded-lg shadow-lg md:w-64" width="260" src="src/assets/uiux2.jpg" alt="2" />
                                 </div>
                                 <div class="flex items-start justify-center ml-12 space-x-4 lg:justify-start">
-                                    <img class="w-24 rounded-lg shadow-lg md:w-40" width="170" src="src/assets/tripguide.png" alt="3" />
-                                    <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="src/assets/tripguide.png" alt="4" />
+                                    <img class="w-24 rounded-lg shadow-lg md:w-40" width="170" src="src/assets/uiux3.jpg" alt="3" />
+                                    <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="src/assets/uiux4.jpg" alt="4" />
                                 </div>
                             </div>
                         </div>
@@ -106,4 +107,4 @@ const Uifeatures = () => {
     )
 }
 
-export default Uifeatures
+export default (Uifeatures)

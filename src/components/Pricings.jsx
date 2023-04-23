@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { SectionWrapper } from '../hoc'
 
 const Pricings = () => {
     return (
@@ -166,4 +167,4 @@ const Pricings = () => {
     )
 }
 
-export default Pricings
+export default SectionWrapper(Pricings)

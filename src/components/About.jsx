@@ -32,7 +32,7 @@ const ServiceCard = ({ title, icon, index }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()} className='mt-5'>
+      <motion.div variants={textVariant()} className='mt-5 xxs:mt-1'>
         <p className={styles.sectionSubText}>
           Introduction
         </p>
@@ -45,7 +45,7 @@ const About = () => {
         We are a team of talented developers making websites and mobile apps. We are passionate about building excellent software that improves the lives of those around us. With us you get a dedicated team of experts who will work with you from concept to launch.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap xxs:gap-28 xxs:pl-3 xxs:mb-4 gap-10">
+      <div className="mt-20 flex xs:justify-center xxs:justify-center flex-wrap xxs:gap-28 xxs:pl-3 xxs:mb-4 gap-10">
         {services.map((service, index) => (
           <Link to={`/${service.key}`}>
             <ServiceCard key={service.title} index={index} {...service}/>

@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import Fcard2 from './Fcard2'
 import Pricings from './Pricings'
 import Pagetitle from './Pagetitle'
+import { SectionWrapper } from '../hoc'
 
 const SocialMedia = ({title}) => {
     title = "Social Media Marketing"    
@@ -23,4 +24,4 @@ const SocialMedia = ({title}) => {
     )
 }
 
-export default SocialMedia
+export default (SocialMedia)

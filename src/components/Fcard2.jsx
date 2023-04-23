@@ -1,4 +1,5 @@
 import React from 'react'
+import { SectionWrapper } from '../hoc'
 
 const Fcard2 = () => {
   return (
@@ -58,4 +59,4 @@ const Fcard2 = () => {
   )
 }
 
-export default Fcard2
+export default SectionWrapper(Fcard2)
