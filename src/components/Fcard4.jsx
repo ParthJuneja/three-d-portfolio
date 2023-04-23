@@ -5,7 +5,7 @@ const Fcard4 = () => {
   return (
     <div className='py-5'>
       <div class="flex-wrap items-center justify-center gap-8 text-center sm:flex">
-        <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
+        <div class="w-full px-4 py-4 mt-6 rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4  bg-gray-800">
           <div class="flex-shrink-0">
             <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
               <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -14,14 +14,14 @@ const Fcard4 = () => {
               </svg>
             </div>
           </div>
-          <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+          <h3 class="py-4 text-2xl font-semibold sm:text-xl  text-white">
             Tech we use
           </h3>
-          <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+          <p class="py-4 text-md  text-gray-300">
             React Native, Flutter and many more for Android and iOS mobile apps.
           </p>
         </div>
-        <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 sm:mt-16 md:mt-20 lg:mt-24 dark:bg-gray-800">
+        <div class="w-full px-4 py-4 mt-6  rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 sm:mt-16 md:mt-20 lg:mt-24  bg-gray-800">
           <div class="flex-shrink-0">
             <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
               <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -30,14 +30,14 @@ const Fcard4 = () => {
               </svg>
             </div>
           </div>
-          <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+          <h3 class="py-4 text-2xl font-semibold sm:text-xl  text-white">
             Publishing Platforms
           </h3>
-          <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+          <p class="py-4 text-md  text-gray-300">
             We publish your app on Google Play Store and Apple App Store.
           </p>
         </div>
-        <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
+        <div class="w-full px-4 py-4 mt-6 rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4  bg-gray-800">
           <div class="flex-shrink-0">
             <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-indigo-500 rounded-md">
               <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -46,10 +46,10 @@ const Fcard4 = () => {
               </svg>
             </div>
           </div>
-          <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
+          <h3 class="py-4 text-2xl font-semibold sm:text-xl  text-white">
             Backend Support
           </h3>
-          <p class="py-4 text-gray-500 text-md dark:text-gray-300">
+          <p class="py-4 text-md  text-gray-300">
             PostgreSQL, MongoDB, MySQL, SQLite. All your data is secure with you.
           </p>
         </div>

@@ -16,7 +16,7 @@ const FeatureCard = ({ index, icon, title, additional }) => {
           </div>
         </div>
         <div className="mt-2 text-center flex flex-col">
-          <span className="text-lg font-medium text-gray-600 xxs:text-sm dark:text-white">
+          <span className="text-lg font-medium xxs:text-sm  text-white">
             {title}
           </span>
           <span className="text-xs text-gray-400">

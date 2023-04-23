@@ -7,16 +7,16 @@ const Pricings = () => {
         <div className='wrapper'>
             <div class="relative max-w-screen-3xl px-4 py-10 mx-auto sm:px-6 lg:px-8 lg:mx-10">
                 <div class="max-w-lg mx-auto overflow-hidden rounded-lg shadow-lg pricing-box lg:max-w-none lg:flex">
-                    <div class="px-6 py-8 bg-white dark:bg-gray-800 lg:flex-shrink-1 lg:p-12 ">
-                        <h3 class="text-2xl font-extrabold leading-8 text-gray-900 sm:text-3xl sm:leading-9 dark:text-white">
+                    <div class="px-6 py-8 bg-gray-800 lg:flex-shrink-1 lg:p-12 ">
+                        <h3 class="text-2xl font-extrabold leading-8 sm:text-3xl sm:leading-9  text-white">
                             Pricings
                         </h3>
-                        <p class="mt-6 text-base leading-6 text-gray-500 dark:text-gray-200">
+                        <p class="mt-6 text-base leading-6 text-gray-200">
                             We believe in the power of simplicity. That's why we offer a simple pricing plan for everyone.
                         </p>
                         <div class="mt-8">
                             <div class="flex items-center">
-                                <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase bg-white dark:bg-gray-800">
+                                <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase bg-gray-800">
                                     What&#x27;s included
                                 </h4>
                                 <div class="flex-1 border-t-2 border-gray-200">
@@ -30,7 +30,7 @@ const Pricings = () => {
                                             </path>
                                         </svg>
                                     </div>
-                                    <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                                    <p class="ml-3 text-sm leading-5   text-gray-200">
                                         All the source files
                                     </p>
                                 </li>
@@ -41,7 +41,7 @@ const Pricings = () => {
                                             </path>
                                         </svg>
                                     </div>
-                                    <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                                    <p class="ml-3 text-sm leading-5   text-gray-200">
                                         Complete Backend Support
                                     </p>
                                 </li>
@@ -52,7 +52,7 @@ const Pricings = () => {
                                             </path>
                                         </svg>
                                     </div>
-                                    <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                                    <p class="ml-3 text-sm leading-5   text-gray-200">
                                         24/7 Support
                                     </p>
                                 </li>
@@ -63,7 +63,7 @@ const Pricings = () => {
                                             </path>
                                         </svg>
                                     </div>
-                                    <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                                    <p class="ml-3 text-sm leading-5  text-gray-200">
                                         Custom Designs
                                     </p>
                                 </li>
@@ -74,7 +74,7 @@ const Pricings = () => {
                                             </path>
                                         </svg>
                                     </div>
-                                    <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                                    <p class="ml-3 text-sm leading-5   text-gray-200">
                                         Marketing Support
                                     </p>
                                 </li>
@@ -85,7 +85,7 @@ const Pricings = () => {
                                             </path>
                                         </svg>
                                     </div>
-                                    <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                                    <p class="ml-3 text-sm leading-5  text-gray-200">
                                         Industry Standard modern designs
                                     </p>
                                 </li>
@@ -96,7 +96,7 @@ const Pricings = () => {
                                             </path>
                                         </svg>
                                     </div>
-                                    <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                                    <p class="ml-3 text-sm leading-5  text-gray-200">
                                         Simplistic UI and UX
                                     </p>
                                 </li>
@@ -104,7 +104,7 @@ const Pricings = () => {
                         </div>
                         <div class="mt-8">
                             <div class="flex items-center">
-                                <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase bg-white dark:bg-gray-800">
+                                <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase bg-gray-800">
                                     &amp; What&#x27;s not
                                 </h4>
                             </div>
@@ -116,7 +116,7 @@ const Pricings = () => {
                                             </path>
                                         </svg>
                                     </div>
-                                    <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                                    <p class="ml-3 text-sm leading-5  text-gray-200">
                                         No royalties, no attribution required
                                     </p>
                                 </li>
@@ -127,27 +127,27 @@ const Pricings = () => {
                                             </path>
                                         </svg>
                                     </div>
-                                    <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                                    <p class="ml-3 text-sm leading-5  text-gray-200">
                                         No hassle of designing your own website.
                                     </p>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="px-6 py-8 text-center bg-gray-50 dark:bg-gray-700 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
-                        <p class="text-lg font-bold leading-6 text-gray-900 dark:text-white">
+                    <div class="px-6 py-8 text-center bg-gray-700 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+                        <p class="text-lg font-bold leading-6 text-white">
                             Flat
                         </p>
-                        <div class="flex items-center justify-center mt-4 text-5xl font-extrabold leading-none text-gray-900 dark:text-white">
+                        <div class="flex items-center justify-center mt-4 text-5xl font-extrabold leading-none text-white">
                             <span>
                                 $4/hr
                             </span>
                         </div>
                         <p class="mt-4 text-sm leading-5">
-                            <span class="block font-medium text-gray-500 dark:text-gray-400">
+                            <span class="block font-medium  text-gray-400">
                                 Card or online payments
                             </span>
-                            <span class="inline-block font-medium text-gray-500  dark:text-gray-400">
+                            <span class="inline-block font-medium  text-gray-400">
                                 no hidden fees
                             </span>
                         </p>
