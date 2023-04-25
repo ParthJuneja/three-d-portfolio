@@ -70,15 +70,15 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.65] xxs:flex-[0.5] xxs:w-11/12 mx-auto items-center bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.65] xxs:flex-[0.5] xxs:w-11/12 mx-auto items-center bg-darker p-8 rounded-2xl'
       >
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <h3 className={` ${styles.sectionHeadText} xxs:text-xxl`}>Contact.</h3>
         <h3 className={`${styles.sectionSubText} xxs:text-xs`}>+1 (470) 500-5772 </h3>
-        <h3 className={`${styles.sectionSubText} xxs:text-xs`}>+91 98110 41767</h3>
+        <h3 className={`${styles.sectionSubText} pt-1 xxs:text-xs`}>+91 98110 41767</h3>
         <a href="mailto:vorpsleads@gmail.com">
         <h3 className={'xxs:text-xs xxs:hidden sm:text-[18px] text-[14px] text-secondary cursor-pointer tracking-wider'}>vorpstechnologies@gmail.com</h3>
-        <h3 className={'xxs:text-xs xxs:mt-0 text-secondary cursor-pointer tracking-wider'}>vorpstechnologies
+        <h3 className={'xxs:text-xs xxs:mt-0 text-lightbeige pt-1 cursor-pointer tracking-wider'}>vorpstechnologies
         @gmail.com</h3>
         </a>
 
@@ -95,7 +95,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="First Name   Last Name"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-brownlight py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col xxs:w'>
@@ -106,7 +106,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="email@company.com"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-brownlight py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col xxs:w-'>
@@ -117,13 +117,13 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='What would you like to say?'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-brownlight py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-orange py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>

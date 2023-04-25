@@ -25,7 +25,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-brownlight p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -49,7 +49,7 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>
+          <h3 className='text-lightbeige font-bold text-[24px]'>
             {name}
           </h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
@@ -83,7 +83,7 @@ const Works = () => {
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p variants={fadeIn('','',0.1,1)} className='mt-3 text-[17px] max-w-3xl mx-auto leading-[30px] text-secondary'>
+        <motion.p variants={fadeIn('','',0.1,1)} className='mt-3 text-[17px] max-w-3xl mx-auto leading-[30px] text-lightbeige'>
           Here are some of our previous works and projects we have completed for our clients.
         </motion.p>
       </div>

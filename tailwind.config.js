@@ -5,6 +5,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        darker:'#131316',
+        brownbase: "#2D2424",
+        brownlight: "#5C3D2E",
+        orange:'#B85C38',
+        beige:'#E0C097',
+        lightbeige:'#FFF3E2',
         primary: "#050816",
         secondary: "#aaa6c3",
         tertiary: "#151030",

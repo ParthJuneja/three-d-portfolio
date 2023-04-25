@@ -41,7 +41,7 @@ const Features = () => {
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p variants={fadeIn('', '', 0.1, 1)} className='mt-3 text-[17px] max-w-3xl mx-auto leading-[30px] text-secondary'>
+        <motion.p variants={fadeIn('', '', 0.1, 1)} className='mt-3 text-[17px] max-w-3xl mx-auto leading-[30px] text-lightbeige'>
           From easy to complex solutions.
           With us, you can get the best features for your website.
           Integrating these features will help you to grow your business rapidly.

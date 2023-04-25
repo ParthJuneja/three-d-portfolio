@@ -16,7 +16,7 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+    className='bg-brownlight p-10 rounded-3xl xs:w-[320px] w-full'
   >
     <p className='text-white font-black text-[48px]'>"</p>
 
@@ -45,9 +45,9 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
+    <div className={`mt-12 bg-darker rounded-[20px]`}>
       <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} lg:min-h-[300px] md:min-h-[250px] sm:min-h-[250px] min-h-[200px]`} //problem here with xs
+        className={`bg-darker rounded-2xl ${styles.padding} lg:min-h-[300px] md:min-h-[250px] sm:min-h-[250px] min-h-[200px]`} //problem here with xs
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>

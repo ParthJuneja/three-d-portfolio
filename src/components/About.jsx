@@ -13,15 +13,15 @@ import { Link } from 'react-router-dom';
 const ServiceCard = ({ title, icon, index }) => {
   return (
     <Tilt className='xs:w-[200px] xxs:w-[200px] xxs:h-[180px] w-full'>
-      <motion.div variants={fadeIn("right","spring",0.5*index,0.75)} className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
+      <motion.div variants={fadeIn("right","spring",0.5*index,0.75)} className='w-full bg-gradient-to-b from-beige to-lightbeige p-[1px] rounded-[20px] shadow-card'>
         <div options={{
           max: 45,
           scale: 1,
           speed:450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
+        className='bg-brownlight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
           <img src={icon} alt={title} className='w-16 h-16 object-contain' />
-          <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+          <h3 className='text-lightbeige text-[20px] font-bold text-center'>{title}</h3>
         </div>
       </motion.div>
     </Tilt>
@@ -41,7 +41,7 @@ const About = () => {
         </h2>
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl mx-auto leading-[30px]' >
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-lightbeige text-[17px] max-w-3xl mx-auto leading-[30px]' >
         We are a team of talented developers making websites and mobile apps. We are passionate about building excellent software that improves the lives of those around us. With us you get a dedicated team of experts who will work with you from concept to launch.
       </motion.p>
 
