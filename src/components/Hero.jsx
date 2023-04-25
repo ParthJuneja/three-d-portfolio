@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles'
-import { ComputerCanvas, EarthCanvas, ErtCanvas, Office } from './canvas'
+import {Office } from './canvas'
 import { slideIn } from '../utils/motion';
 
 const Hero = () => {
