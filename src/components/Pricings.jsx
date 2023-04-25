@@ -7,7 +7,7 @@ const Pricings = () => {
         <div className='wrapper'>
             <div class="relative max-w-screen-3xl px-4 py-10 mx-auto sm:px-6 lg:px-8 lg:mx-10">
                 <div class="max-w-lg mx-auto overflow-hidden rounded-lg shadow-lg pricing-box lg:max-w-none lg:flex">
-                    <div class="px-6 py-8 bg-gray-800 lg:flex-shrink-1 lg:p-12 ">
+                    <div class="px-6 py-8 bg-brownlight lg:flex-shrink-1 lg:p-12 ">
                         <h3 class="text-2xl font-extrabold leading-8 sm:text-3xl sm:leading-9  text-white">
                             Pricings
                         </h3>
@@ -16,7 +16,7 @@ const Pricings = () => {
                         </p>
                         <div class="mt-8">
                             <div class="flex items-center">
-                                <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase bg-gray-800">
+                                <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-lightbeige uppercase">
                                     What&#x27;s included
                                 </h4>
                                 <div class="flex-1 border-t-2 border-gray-200">
@@ -104,7 +104,7 @@ const Pricings = () => {
                         </div>
                         <div class="mt-8">
                             <div class="flex items-center">
-                                <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase bg-gray-800">
+                                <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-lightbeige uppercase">
                                     &amp; What&#x27;s not
                                 </h4>
                             </div>
@@ -134,7 +134,7 @@ const Pricings = () => {
                             </ul>
                         </div>
                     </div>
-                    <div class="px-6 py-8 text-center bg-gray-700 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+                    <div class="px-6 py-8 text-center bg-[#825641] lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
                         <p class="text-lg font-bold leading-6 text-white">
                             Flat
                         </p>
@@ -144,17 +144,17 @@ const Pricings = () => {
                             </span>
                         </div>
                         <p class="mt-4 text-sm leading-5">
-                            <span class="block font-medium  text-gray-400">
+                            <span class="block font-medium  text-lightbeige">
                                 Card or online payments
                             </span>
-                            <span class="inline-block font-medium  text-gray-400">
+                            <span class="inline-block font-medium  text-lightbeige">
                                 no hidden fees
                             </span>
                         </p>
                         <Link to= '/#contact'>
                         <div class="mt-6">
                             <div class="rounded-md shadow">
-                                <button type="button" class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                                <button type="button" class="py-2 px-4  bg-orange hover:bg-yellow-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                                     Get Started
                                 </button>
                             </div>

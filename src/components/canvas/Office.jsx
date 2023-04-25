@@ -12,8 +12,8 @@ const Ert = ({isMobile}) => {
       <pointLight intensity={1} />
       <spotLight intensity={1} position={[-20, 20, 100]} angle={0.12} penumbra={1} castShadow></spotLight>
       <primitive object={e.scene} 
-      scale =  {isMobile ? 1  : 1}
-      position = {isMobile ? [0,-1.2,0.1] :[0,-3.4,-0.1]}
+      scale =  {isMobile ? 0.7  : 1}
+      position = {isMobile ? [0,-1,0] :[0,-3.4,-0.1]}
       rotation = {[0.05,0,0]}
       />
     </mesh>

@@ -8,18 +8,18 @@ import { SectionWrapper } from '../hoc'
 
 const Mobiledev = () => {
     return (
-        <div className='wrapper-body'>
+        <div className='wrapper-body bg-brownbase'>
             <Navbar/>
 
             <Pagetitle title={'Mobile App Development'}/>
 
             <Fcard4/>
 
-            <div class="relative max-w-screen-xl mx-6 p-4 px-4 bg-white dark:bg-gray-800 sm:px-6 lg:px-8 py-26 lg:mt-20">
+            <div class="relative max-w-screen-xl mx-6 p-4 px-4 bg-brownlight sm:px-6 lg:px-8 py-26 lg:mt-20">
                 <div class="relative">
                     <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                         <div class="ml-auto lg:col-start-2 lg:max-w-2xl">
-                            <p class="text-base font-semibold leading-6 text-indigo-500 uppercase">
+                            <p class="text-base font-semibold leading-6 text-lightbeige  uppercase">
                                 Features
                             </p>
                             <h4 class="mt-2 text-2xl font-extrabold leading-8 text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
