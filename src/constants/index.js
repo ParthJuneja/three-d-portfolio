@@ -49,9 +49,20 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "product",
+    title: "Our Products",
+  },
 ];
 
 const services = [
+  {
+
+    title: "UI/UX Design",
+    icon: backend,
+    key:  'uiux'
+   
+  },
   {
     title: "Web Development",
     icon: web,
@@ -63,12 +74,7 @@ const services = [
     key:  'mobile'
   },
   {
-    title: "UI/UX Design",
-    icon: backend,
-    key:  'uiux'
-  },
-  {
-    title: "Digital Marketing",
+    title: "Digital Advertisement",
     icon: creator,
     key:  'digital'
   },
@@ -239,24 +245,24 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Vorps proved me wrong.",
-    name: "Sara Lee",
+      "I had the pleasure of working with Vorps Technologies for my website development project and I couldn't be happier with the results. I highly recommend Vorps Technologies for any website development needs and I look forward to future projects with them.",
+    name: "Nitin",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "Vorps is the best web development company I've ever worked with. They're fast, efficient, and very professional.",
-    name: "Chris Brown",
+      "I have had my website created by them, and I am so pleased with the results, it was a very complicated process but the team handled it seamlessly.I'm so happy with the product! Thank you guys!",
+    name: "Huzaifa Nagaria",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After they optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "This company is very wonderful and their employees are also very smart and friendly, I gave a project to this company which I was satisfied with their work. I recommend this company for any tech job",
+    name: "Data Operator",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -318,6 +324,7 @@ const projects = [
       {
         name: "nodejs-expressjs",
         color: "green-text-gradient",
+        
       },
       {
         name: "material-ui",

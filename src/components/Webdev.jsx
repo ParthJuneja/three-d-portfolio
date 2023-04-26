@@ -13,6 +13,7 @@ const Webdev = () => {
 
             <Pagetitle title={'Web Development'}/>
             
+            
             <Fcard3/>
 
             <div class="relative max-w-screen-xl mx-6 p-4 px-4 bg-gray-800 sm:px-6 lg:px-8 py-26 lg:mt-20">
@@ -37,7 +38,7 @@ const Webdev = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6  text-gray-200">
+                                        <span align='left' class="ml-4 text-base font-medium leading-6  text-gray-200">
                                             SEO Friendly website using Python, JavaScript, HTML, CSS, and React
                                         </span>
                                     </div>
@@ -50,7 +51,7 @@ const Webdev = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6  text-gray-200">
+                                        <span  align='left' class="ml-4 text-base font-medium leading-6  text-gray-200">
                                             Interactive and Responsive
                                         </span>
                                     </div>
@@ -63,7 +64,7 @@ const Webdev = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6 text-gray-200">
+                                        <span  align='left' class="ml-4 text-base font-medium leading-6 text-gray-200">
                                             Complete personal support
                                         </span>
                                     </div>
@@ -76,7 +77,7 @@ const Webdev = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6  text-gray-200">
+                                        <span  align='left' class="ml-4 text-base  font-medium leading-6  text-gray-200">
                                             Attractive and modern
                                         </span>
                                     </div>

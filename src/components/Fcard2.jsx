@@ -15,10 +15,11 @@ const Fcard2 = () => {
             </div>
           </div>
           <h3 class="py-4 text-2xl font-semibold sm:text-xl  text-white">
-            Google Analytics setup
+            Google Analytics and  Tag Manager
           </h3>
           <p class="py-4 text-md  text-gray-300">
-            We will setup Google Analytics, Google Merchant, Google Tag manager and Google Ads for your website and help you understand the data.
+          Google analytics and  tag manager is a tool to give you live insights of your website.
+          So that you can have real time track on audience
           </p>
         </div>
         <div class="w-full px-4 py-4 mt-6 rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 sm:mt-16 md:mt-20 lg:mt-24  bg-gray-800">
@@ -31,10 +32,11 @@ const Fcard2 = () => {
             </div>
           </div>
           <h3 class="py-4 text-2xl font-semibold sm:text-xl  text-white">
-            Facebook and Instagram Ads
+          Facebook ,Snapchat ,Instagram Ads
           </h3>
           <p class="py-4  text-md  text-gray-300">
-            We will help you setup Facebook and Instagram Ads and help you understand the data and expand your reach.
+          We setup your Social media Ads through various matrix and insights to target the
+          top 10% audience who are looking to buy your product and services
           </p>
         </div>
         <div class="w-full px-4 py-4 mt-6  rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4  bg-gray-800">
@@ -47,10 +49,11 @@ const Fcard2 = () => {
             </div>
           </div>
           <h3 class="py-4 text-2xl font-semibold sm:text-xl  text-white">
-            Facebook Pixel
+          Snapchat & Facebook Pixel
           </h3>
           <p class="py-4  text-md  text-gray-300">
-            We also offer Snapchat and Reddit ads.
+           Snapchat & Facebook pixel are linked to track the audience and for
+           running remarketing campaigns which increases the conversion rate by 20%
           </p>
         </div>
       </div>

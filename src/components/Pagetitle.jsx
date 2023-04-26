@@ -11,9 +11,10 @@ const Pagetitle = ({ title }) => {
                             {title}
                         </span>
                         <span class="block text-indigo-500">
-                            For your Website.
+                         for your business Website.
                         </span>
                     </h2>
+                    {/* <p className='py-4' >we understand that a website is the foundation of any successful online business. That's why we offer customized website development services to meet the unique needs of our clients. Our team of experts uses the latest technologies to create responsive, user-friendly, and optimized websites that reflect the brand message and engage with their target audience. We work closely with our clients to understand their requirements and provide them with a website that will help them achieve their business goals.</p> */}
                     <div class="lg:mt-0 lg:flex-shrink-0">
                             <div class="mt-12 inline-flex rounded-md shadow">
                         <a href='/#contact'>

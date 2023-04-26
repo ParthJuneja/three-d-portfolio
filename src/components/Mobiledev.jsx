@@ -11,21 +11,21 @@ const Mobiledev = () => {
         <div className='wrapper-body'>
             <Navbar/>
 
-            <Pagetitle title={'Mobile App Development'}/>
+            <Pagetitle title={'Developing Android application'}/>
 
             <Fcard4/>
 
-            <div class="relative max-w-screen-xl mx-6 p-4 px-4 bg-white dark:bg-gray-800 sm:px-6 lg:px-8 py-26 lg:mt-20">
+            <div class="relative max-w-screen-xl mx-6 p-4 px-4 bg-gray-800 sm:px-6 lg:px-8 py-26 lg:mt-20">
                 <div class="relative">
                     <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                         <div class="ml-auto lg:col-start-2 lg:max-w-2xl">
                             <p class="text-base font-semibold leading-6 text-indigo-500 uppercase">
                                 Features
                             </p>
-                            <h4 class="mt-2 text-2xl font-extrabold leading-8 text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
+                            <h4 class="mt-2 text-2xl font-extrabold leading-8 text-white-900 dark:text-white sm:text-3xl sm:leading-9">
                                 Complete app from scratch
                             </h4>
-                            <p class="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
+                            <p class="mt-6 text-base leading-6 text-gray-200">
                                 We help you choose the best platform for your business and build a iOS/Android that is easy to use and maintain.
                             </p>
                             <ul class="gap-6 mt-8 md:grid md:grid-cols-2">
@@ -37,7 +37,7 @@ const Mobiledev = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
+                                        <span align='left' class="ml-4 text-base font-medium leading-6 text-gray-300 dark:text-gray-200">
                                             Atrractive and modern app using Flutter and React Native
                                         </span>
                                     </div>
@@ -50,7 +50,7 @@ const Mobiledev = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
+                                        <span align='left' class="ml-4 text-base font-medium leading-6 text-gray-300 dark:text-gray-200">
                                             Interactive and Responsive
                                         </span>
                                     </div>
@@ -63,7 +63,7 @@ const Mobiledev = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
+                                        <span align='left' class="ml-4 text-base font-medium leading-6 text-gray-300 dark:text-gray-200">
                                             Complete personal support
                                         </span>
                                     </div>
@@ -76,7 +76,7 @@ const Mobiledev = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
+                                        <span align='left' class="ml-4 text-base font-medium leading-6 text-gray-300 dark:text-gray-200">
                                             Attractive and modern
                                         </span>
                                     </div>

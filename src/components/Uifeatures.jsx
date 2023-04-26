@@ -37,7 +37,7 @@ const Uifeatures = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6  text-gray-200">
+                                        <span align='left' class="ml-4 text-base font-medium leading-6  text-gray-200">
                                             Figma and Adobe XD designs
                                         </span>
                                     </div>
@@ -50,7 +50,7 @@ const Uifeatures = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6  text-gray-200">
+                                        <span align='left' class="ml-4 text-base font-medium leading-6  text-gray-200">
                                             Interactive and Responsive
                                         </span>
                                     </div>
@@ -63,7 +63,7 @@ const Uifeatures = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6  text-gray-200">
+                                        <span align='left' class="ml-4 text-base font-medium leading-6  text-gray-200">
                                             Complete personal support
                                         </span>
                                     </div>
@@ -76,7 +76,7 @@ const Uifeatures = () => {
                                                 </path>
                                             </svg>
                                         </span>
-                                        <span class="ml-4 text-base font-medium leading-6  text-gray-200">
+                                        <span align='left' class="ml-4 text-base font-medium leading-6  text-gray-200">
                                             Attractive and modern
                                         </span>
                                     </div>

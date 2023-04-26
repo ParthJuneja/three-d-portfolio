@@ -42,7 +42,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl mx-auto leading-[30px]' >
-        We are a team of talented developers making websites and mobile apps. We are passionate about building excellent software that improves the lives of those around us. With us you get a dedicated team of experts who will work with you from concept to launch.
+      we specialize in providing top-notch website development, application development, and digital advertising services. We have a team of experienced professionals who are dedicated to delivering the best results for our clients.
       </motion.p>
 
       <div className="mt-20 flex xs:justify-center xxs:justify-center flex-wrap xxs:gap-28 xxs:pl-3 xxs:mb-4 gap-10">

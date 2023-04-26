@@ -15,10 +15,10 @@ const Fcard3 = () => {
             </div>
           </div>
           <h3 class="py-4 text-2xl font-semibold sm:text-xl  text-white">
-            Tech we use
+            Tech We Use
           </h3>
-          <p class="py-4  text-md  text-gray-300">
-            Django, Flask, React, Node, REST, Python
+          <p align='left' class="py-4  text-md  text-gray-300">
+          Python, Django, Flask, React, Node, REST 
           </p>
         </div>
         <div class="w-full px-4 py-4 mt-6 rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 sm:mt-16 md:mt-20 lg:mt-24  bg-gray-800">
@@ -31,10 +31,10 @@ const Fcard3 = () => {
             </div>
           </div>
           <h3 class="py-4 text-2xl font-semibold sm:text-xl  text-white">
-            Servers and Hosting
+          Backend Support
           </h3>
-          <p class="py-4  text-md  text-gray-300">
-            AWS, NameCheap, Vercel, Firebase, Netlify
+          <p align='left' class="py-4  text-md  text-gray-300">
+          PostgreSQL, MongoDB, MySQL, SQLite. <br /> All your data is secure with you.
           </p>
         </div>
         <div class="w-full px-4 py-4 mt-6  rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4  bg-gray-800">
@@ -47,10 +47,10 @@ const Fcard3 = () => {
             </div>
           </div>
           <h3 class="py-4 text-2xl font-semibold  sm:text-xl  text-white">
-            Backend Support
+          Deployment of Website
           </h3>
-          <p class="py-4 text-md  text-gray-300">
-            PostgreSQL, MongoDB, MySQL, SQLite. All your data is secure with you.
+          <p align='left' class="py-4 text-md  text-gray-300">
+          AWS, VPS, Cloud Hosting, Google Cloud console
           </p>
         </div>
       </div>
