@@ -43,14 +43,14 @@ const Navbar = () => {
             onClick={() => { setToggle(!Toggle); }} />
         </div>
         {/* Mobile Menu */}
-        <div className={`${!Toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
+        <div className={`${!Toggle ? 'hidden' : 'flex'} p-6 bg-gradient-to-b from-darker to-brownlight absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
             <ul className="list-none flex justify-end items-start flex-col gap-4" >
               {navLinks.map((link) => (
                 <li
                   key={link.id}
                   className={`${active === link.title
-                    ? "text-white"
-                    : "text-secondary"
+                    ? "text-beige"
+                    : "text-lightbeige"
                     } hover:text-white text-[18px] font-medium cursor pointer`}
                   onClick={() => setActive(link.title)}>
 
