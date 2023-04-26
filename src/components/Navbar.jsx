@@ -23,7 +23,7 @@ const Navbar = () => {
           <p className='text-lightbeige text-[18p] font-bold cursor-pointer flex'>Vorps Tech</p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10" >
-          {/* <Dropdown/> */}
+          <Dropdown/>
           {navLinks.map((link) => (
             <li key={link.id}
               className={`${active === link.title
