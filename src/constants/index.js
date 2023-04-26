@@ -42,17 +42,17 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Services",
+    id: "works",
+    title: "Products",
   },
   {
     id: "contact",
     title: "Contact",
   },
-  {
-    id: "product",
-    title: "Our Products",
-  },
+  // {
+  //   id: "product",
+  //   title: "Our Products",
+  // },
 ];
 
 const services = [
