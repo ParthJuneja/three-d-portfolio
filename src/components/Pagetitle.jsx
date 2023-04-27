@@ -1,7 +1,12 @@
 import React from 'react'
 import { SectionWrapper } from '../hoc';
+import {  useNavigate } from 'react-router-dom';
+
+
+
 
 const Pagetitle = ({ title }) => {
+    const navigate= useNavigate();
     return (
         <div className='px-6'>
             <div class="mt-16 py-5  bg-gray-800 ">
@@ -17,8 +22,8 @@ const Pagetitle = ({ title }) => {
                     {/* <p className='py-4' >we understand that a website is the foundation of any successful online business. That's why we offer customized website development services to meet the unique needs of our clients. Our team of experts uses the latest technologies to create responsive, user-friendly, and optimized websites that reflect the brand message and engage with their target audience. We work closely with our clients to understand their requirements and provide them with a website that will help them achieve their business goals.</p> */}
                     <div class="lg:mt-0 lg:flex-shrink-0">
                             <div class="mt-12 inline-flex rounded-md shadow">
-                        <a href='/#contact'>
-                                <button type="button" class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                        <a >
+                                <button onClick={()=>navigate("/ContactUs")} type="button" class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                                     Get a Quote
                                 </button>
                         </a>

@@ -11,7 +11,7 @@ const SocialMedia = ({title}) => {
     return (
         <div className='wrapper-body'>
             <Navbar/>
-            <Pagetitle title={'Digital Marketing'}/>
+            <Pagetitle title={'Digital Advertisement'}/>
 
             <Fcard2/>
 

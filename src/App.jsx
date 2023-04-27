@@ -3,6 +3,7 @@ import {About, Contact, Experience, Feedbacks, Hero, Navbar , Tech, Works, Stars
 
 import './App.css'
 import Footer from './components/Footer';
+import Whatsup from './components/Whatsup';
 
 const App = () =>{
 
@@ -23,6 +24,7 @@ const App = () =>{
           <Contact/>
           <StarsCanvas/>
         </div>
+        <Whatsup/>
         <Footer/> 
       </div>
     // </BrowserRouter>

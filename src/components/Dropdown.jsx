@@ -27,12 +27,25 @@ export default function Example() {
       >
         <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right text-white rounded-md bg-primary shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
+          <Menu.Item>
+              {({ active }) => (
+                <a
+                  href="/uiux"
+                  className={classNames(
+                    active ? 'bg-primary-800 text-gray-200' : 'text-gray-200',
+                    'block px-4 py-2 text-sm'
+                  )}
+                >
+                  UI/UX
+                </a>
+              )}
+            </Menu.Item>
             <Menu.Item>
               {({ active }) => (
                 <a
                   href="/web"
                   className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                    active ? 'bg-primary-800 text-gray-200' : 'text-gray-200',
                     'block px-4 py-2 text-sm'
                   )}
                 >
@@ -45,7 +58,7 @@ export default function Example() {
                 <a
                   href="/mobile"
                   className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                    active ? 'bg-primary-800 text-gray-200' : 'text-gray-200',
                     'block px-4 py-2 text-sm'
                   )}
                 >
@@ -53,29 +66,17 @@ export default function Example() {
                 </a>
               )}
             </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="/uiux"
-                  className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  UI/UX
-                </a>
-              )}
-            </Menu.Item>
+            
             <Menu.Item>
               {({ active }) => (
                 <a
                   href="/digital"
                   className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                    active ? 'bg-gray-800 text-gray-200' : 'text-gray-200',
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Digital Marketing
+                  Digital Advertisement
                 </a>
               )}
             </Menu.Item>
@@ -85,7 +86,7 @@ export default function Example() {
                   <button
                     type="submit"
                     className={classNames(
-                      active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                      active ? 'bg-gray-100 text-gray-300' : 'text-gray-300',
                       'block w-full px-4 py-2 text-left text-sm'
                     )}
                   >

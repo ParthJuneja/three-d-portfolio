@@ -13,6 +13,7 @@ const Uifeatures = () => {
 
             <Pagetitle title={'UI UX Design'}/>
             
+            
             <Fcard/>
             
             <div class="relative max-w-screen-xl mx-6 p-4 px-4 bg-gray-800 sm:px-6 lg:px-8 py-26 lg:mt-20">
