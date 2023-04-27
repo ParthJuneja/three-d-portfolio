@@ -1,17 +1,22 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { useNavigate } from 'react-router-dom'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
 export default function Example() {
+  const navigate =useNavigate()
+  function handleuiux(event){
+    navigate('/uiux');
+  }
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <Menu.Button className="inline-flex w-full justify-center rounded-md bg-primary text-lg font-semibold text-secondary shadow-sm hover:text-white">
-          Options
+          Our Services
           <ChevronDownIcon className="-mr-1 h-6 w-6 text-secondary" aria-hidden="true" />
         </Menu.Button>
       </div>
@@ -30,9 +35,9 @@ export default function Example() {
           <Menu.Item>
               {({ active }) => (
                 <a
-                  href="/uiux"
+                onClick={handleuiux}
                   className={classNames(
-                    active ? 'bg-primary-800 text-gray-200' : 'text-gray-200',
+                    active ? 'bg-gray-800 text-gray-200' : 'text-gray-200',
                     'block px-4 py-2 text-sm'
                   )}
                 >
@@ -45,7 +50,7 @@ export default function Example() {
                 <a
                   href="/web"
                   className={classNames(
-                    active ? 'bg-primary-800 text-gray-200' : 'text-gray-200',
+                    active ? 'bg-gray-800 text-gray-200' : 'text-gray-200',
                     'block px-4 py-2 text-sm'
                   )}
                 >
@@ -58,7 +63,7 @@ export default function Example() {
                 <a
                   href="/mobile"
                   className={classNames(
-                    active ? 'bg-primary-800 text-gray-200' : 'text-gray-200',
+                    active ? 'bg-gray-800 text-gray-200' : 'text-gray-200',
                     'block px-4 py-2 text-sm'
                   )}
                 >

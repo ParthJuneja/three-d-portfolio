@@ -21,7 +21,7 @@ const Navbar = () => {
           window.scrollTo(0, 0);
         }}>
           <img src={logo} alt='logo' className='w-30 h-30 object-contain' />
-          <p className='text-white text-[18p] font-bold cursor-pointer flex'>Vorpstechnologies</p>
+          <p className='text-white text-[18p] font-bold cursor-pointer flex'>Vorps Technologies</p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10" >
           <Dropdown/>

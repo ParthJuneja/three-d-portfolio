@@ -9,7 +9,7 @@ const Footer = () => {
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a href={'/'}class="flex title-font font-medium items-center md:justify-start justify-center text-gray-300    ">
             <img src={logo} alt="logo" className='w-30 h-30'/>
-            <span class="ml-2 text-xl">Vorpstechnologies</span>
+            <span class="ml-2 text-xl">Vorps Technologies</span>
           </a>
           <a href="/tnc" class="ml-3 text-gray-500"> 
               {/* <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24"> */}
