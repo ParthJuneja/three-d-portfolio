@@ -11,7 +11,7 @@ const Uifeatures = () => {
         <div className='wrapper-body'>
             <Navbar/>
 
-            <Pagetitle title={'UI UX Design'}/>
+            <Pagetitle title={'We create highly interactive UI/UX Design'} subtitle={'for Modern web applications.'} subtext={'We specialize in providing top-notch UI/UX designing, website development, application development, software development, and digital advertising services. We have a team of experienced professionals who are dedicated to delivering the best results for our clients'}/>
             
             
             <Fcard/>

@@ -11,7 +11,7 @@ const Webdev = () => {
         <div className='wrapper-body'>
             <Navbar/>
 
-            <Pagetitle title={'Web Development'}/>
+            <Pagetitle title={'Web Development'} subtitle={'for your business Website.'}/>
             
             
             <Fcard3/>

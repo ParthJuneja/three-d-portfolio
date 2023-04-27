@@ -11,7 +11,7 @@ const Mobiledev = () => {
         <div className='wrapper-body'>
             <Navbar/>
 
-            <Pagetitle title={'Developing Android application'}/>
+            <Pagetitle title={'Developing Android and iOS application'} subtitle={'for your business.'}/>
 
             <Fcard4/>
 
