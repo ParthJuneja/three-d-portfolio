@@ -3,9 +3,8 @@ import React from 'react'
 function Whatsup() {
   return (
     <div >
-      <a className='bottom-3 right-3' style={{position:'fixed',width:'60px',height:'60px',backgroundColor:'#25d366',color:'#FFF',borderRadius:'50px',textAlign:'center',fontSize:'30px',boxShadow:'2px 2px 3px #999',zIndex:'100'}}
+      <a class='fixed w-[60px] h-[60px] bg-[#25d366] text-white rounded-[50px] text-center text-[30px] bottom-10 right-10 z-100 shadow-lg'
         href="https://api.whatsapp.com/send?phone=+91-9811041767&text=Contacting to you in regards of this page https://www.vorpstech.com/"
-        class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
       >
