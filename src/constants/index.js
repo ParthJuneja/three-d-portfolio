@@ -34,6 +34,7 @@ import {
   gps,
   ecommerce,
   wallet,
+  ai
 } from "../assets";
 
 export const navLinks = [
@@ -61,7 +62,7 @@ const services = [
     title: "UI/UX Design",
     icon: backend,
     key:  'uiux'
-   
+  
   },
   {
     title: "Web Development",
@@ -93,7 +94,7 @@ const features = [
   },
   {
     icon: bitcoin,
-    title: "Bitcoin",
+    title: "Crypto",
     description: "Website"
   },
   {
@@ -116,6 +117,11 @@ const features = [
     title: "Wallet",
     description: "Website"
   },
+  {
+    icon: ai,
+    title: "AI",
+    description: "Mobile App"
+},
 ];
 
 const technologies = [

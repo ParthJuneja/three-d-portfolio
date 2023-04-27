@@ -32,6 +32,7 @@ import gps from "./company/gps.png";
 import notif from "./company/notif.png";
 import ticket from "./company/ticket.png";
 import wallet from "./company/wallet.png";
+import ai from "./company/ai.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -81,4 +82,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  ai
 };

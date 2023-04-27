@@ -20,7 +20,7 @@ const Pagetitle = ({ title,subtitle,subtext }) => {
                         {/* for your business Website. */}
                         </span>
                     </h2>
-                    <p className='pt-4 text-lg font-extralight' >{subtext}</p>
+                    <p className='pt-4 text-lg font-extralight mr-32 xxs:mr-12' >{subtext}</p>
                     <div class="lg:mt-0 lg:flex-shrink-0">
                             <div class="mt-12 inline-flex rounded-md shadow">
                         <a >

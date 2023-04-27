@@ -11,7 +11,7 @@ const Webdev = () => {
         <div className='wrapper-body'>
             <Navbar/>
 
-            <Pagetitle title={'Web Development'} subtitle={'for your business Website.'}/>
+            <Pagetitle title={'Web Development'} subtitle={'for your business Website.'} subtext={'We understand that a website is the foundation of any successful online business. That\'s why we offer customized website development services to meet the unique needs of our clients. Our team of experts uses the latest technologies to create responsive, user-friendly, and optimized websites that reflect the brand message and engage with their target audience. We work closely with our clients to understand their requirements and provide them with a website that will help them achieve their business goals.'}/>
             
             
             <Fcard3/>

@@ -11,7 +11,7 @@ const Mobiledev = () => {
         <div className='wrapper-body'>
             <Navbar/>
 
-            <Pagetitle title={'Developing Android and iOS application'} subtitle={'for your business.'}/>
+            <Pagetitle title={'Developing Android and iOS application'} subtitle={'for your business.'} subtext={'Application development services cover a wide range of platforms, including iOS, Android, and web-based applications. We use agile methodologies to develop robust and scalable applications that are designed to meet the unique needs of our clients. From idea to implementation, we work closely with our clients to ensure that their applications are developed to their exact specifications.'}/>
 
             <Fcard4/>
 

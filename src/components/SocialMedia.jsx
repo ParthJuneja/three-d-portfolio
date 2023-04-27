@@ -11,7 +11,7 @@ const SocialMedia = ({title}) => {
     return (
         <div className='wrapper-body'>
             <Navbar/>
-            <Pagetitle title={'Digital Advertising Services'} subtitle={'Boost your online presence'}/>
+            <Pagetitle title={'Digital Advertising Services'} subtitle={'Boost your online presence'} subtext={'Digital advertising services are designed to help businesses grow their online presence and reach their target audience. We use a variety of digital marketing strategies, pay-per-click (PPC) advertising, and social media advertising, to help our clients drive more traffic to their websites and increase their sales.'}/>
 
             <Fcard2/>
 
