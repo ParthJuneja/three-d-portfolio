@@ -12,6 +12,15 @@ export default function Example() {
   function handleuiux(event){
     navigate('/uiux');
   }
+  function handleweb(event){
+    navigate('/web');
+  }
+  function handlemobile(event){
+    navigate('/mobile');
+  }
+  function handledigital(event){
+    navigate('/digital');
+  }
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
@@ -20,7 +29,6 @@ export default function Example() {
           <ChevronDownIcon className="-mr-1 h-6 w-6 text-secondary" aria-hidden="true" />
         </Menu.Button>
       </div>
-
       <Transition
         as={Fragment}
         enter="transition ease-out duration-100"
@@ -48,7 +56,7 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="/web"
+                  onClick={handleweb}
                   className={classNames(
                     active ? 'bg-gray-800 text-gray-200' : 'text-gray-200',
                     'block px-4 py-2 text-sm'
@@ -61,7 +69,7 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="/mobile"
+                  onClick={handlemobile}
                   className={classNames(
                     active ? 'bg-gray-800 text-gray-200' : 'text-gray-200',
                     'block px-4 py-2 text-sm'
@@ -75,7 +83,7 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="/digital"
+                  onClick={handledigital}
                   className={classNames(
                     active ? 'bg-gray-800 text-gray-200' : 'text-gray-200',
                     'block px-4 py-2 text-sm'

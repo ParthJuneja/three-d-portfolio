@@ -16,7 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App/>} />
         {/* <Route path="/#contact" element={<Contact/>} /> */}
         <Route path="/uiux" element={<Topwrapper><Uifeatures /></Topwrapper>} />
-        
         <Route path="/web" element={<Topwrapper><Webdev /></Topwrapper>} />
         <Route path="/mobile" element={<Topwrapper> <Mobiledev /> </Topwrapper>} />
         <Route path="/digital" element={<Topwrapper> <SocialMedia />   </Topwrapper>} />
