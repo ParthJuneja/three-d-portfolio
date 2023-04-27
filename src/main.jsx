@@ -23,7 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path ="/tnc" element={<Topwrapper> <Tnc/> </Topwrapper>}/>
         <Route path ="/BonzoTambola" element={<Topwrapper> <BonzoTambola/> </Topwrapper>}/>
         <Route path ="/ContactUS" element={<Topwrapper> <ContactUS/> </Topwrapper>}/>
-       </Routes>
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 )
