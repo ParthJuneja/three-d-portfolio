@@ -2,9 +2,10 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles'
-import { ComputerCanvas, EarthCanvas, ErtCanvas } from './canvas'
+import { ComputerCanvas, EarthCanvas, ErtCanvas,NewGlobe } from './canvas'
 import { slideIn } from '../utils/motion';
 import NewEarth from './canvas/NewEarth';
+// import NewGlobe from './canvas/NewGlobe';
 
 
 const Hero = () => {
@@ -24,6 +25,7 @@ const Hero = () => {
       </div>
       {/* <ErtCanvas/> */}
       {/* <NewEarth/> */}
+      {/* <NewGlobe/> */}
       
       <div className='mt-10 xxs:mt-0 relative sm:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
