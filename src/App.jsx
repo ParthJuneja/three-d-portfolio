@@ -4,6 +4,8 @@ import {About, Contact, Experience, Feedbacks, Hero, Navbar , Tech, Works, Stars
 import './App.css'
 import Footer from './components/Footer';
 import Whatsup from './components/Whatsup';
+import ScrollUpButton from './components/ScrollUpButton';
+import NewEarth from './components/canvas/NewEarth';
 
 const App = () =>{
 
@@ -13,6 +15,7 @@ const App = () =>{
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center ">
           <Navbar/>
           <Hero/>
+          <NewEarth />
         </div>
         <About/>
         <Features/>
@@ -25,6 +28,9 @@ const App = () =>{
           <StarsCanvas/>
         </div>
         <Whatsup/>
+       <div style={{float:'left'}}>
+       <ScrollUpButton /> 
+       </div>
         <Footer/> 
       </div>
     // </BrowserRouter>

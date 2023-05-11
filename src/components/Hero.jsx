@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles'
 import { ComputerCanvas, EarthCanvas, ErtCanvas } from './canvas'
 import { slideIn } from '../utils/motion';
+import NewEarth from './canvas/NewEarth';
 
 const Hero = () => {
   return (
@@ -20,7 +21,8 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100 `}>We are team of talented Tech developers, Specialise in <br className='sm:block hidden'/> fulfilling the need of future businesses</p>
         </div>
       </div>
-      <ErtCanvas/>
+      {/* <ErtCanvas/> */}
+      {/* <NewEarth/> */}
       
       <div className='mt-10 xxs:mt-0 relative sm:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

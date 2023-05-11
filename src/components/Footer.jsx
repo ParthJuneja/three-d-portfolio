@@ -18,17 +18,17 @@ const Footer = () => {
     <div>
       <footer class="text-gray-600 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a onClick={handlemain} href={'/'}class="flex title-font font-medium items-center md:justify-start justify-center text-gray-300">
+          <a onClick={handlemain} class="flex title-font font-medium items-center md:justify-start justify-center text-gray-300">
             <img src={logo} alt="logo" className='w-30 h-30'/>
             <span class="ml-2 text-xl">Vorps Technologies</span>
           </a>
-          <a onClick={handletnc} href="/tnc" class="ml-3 text-gray-500"> 
+          <a onClick={handletnc}  class="ml-3 text-gray-500"> 
               {/* <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24"> */}
                 <p className='cursor-pointer'>T&C</p>
                 {/* <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path> */}
               {/* </svg> */}
             </a>
-            <a onClick={handlepp} href="/privacy" class="ml-3 text-gray-500">
+            <a onClick={handlepp}  class="ml-3 text-gray-500">
               {/* <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24"> */}
                 <p className='cursor-pointer'>Privacy Policy</p>
                 {/* <img src={privacyPolicy}/> */}
