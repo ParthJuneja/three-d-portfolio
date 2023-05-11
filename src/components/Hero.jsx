@@ -6,6 +6,7 @@ import { ComputerCanvas, EarthCanvas, ErtCanvas } from './canvas'
 import { slideIn } from '../utils/motion';
 import NewEarth from './canvas/NewEarth';
 
+
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
