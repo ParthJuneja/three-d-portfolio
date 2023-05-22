@@ -16,7 +16,9 @@ const App = () =>{
           <Navbar/>
           <Hero/>
           {/* <NewEarth /> */}
+          <NewEarth/>
         </div>
+      
         <About/>
         <Features/>
         <Experience/>

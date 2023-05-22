@@ -10,7 +10,7 @@ import NewEarth from './canvas/NewEarth';
 
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto'>
+    <section className='relative w-full  mx-auto h-[300px] xxs:40vh'  >
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         
         <div className="flex flex-col justify-center items-center mt-5 xxs:mt-0">
@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
       </div>
       {/* <ErtCanvas/> */}
-      {/* <NewEarth/> */}
+      
       {/* <NewGlobe/> */}
       
       <div className='mt-10 xxs:mt-0 relative sm:bottom-10 bottom-32 w-full flex justify-center items-center'>
@@ -43,8 +43,9 @@ const Hero = () => {
           </div>
         </a>
       </div>
-      
+     
     </section>
+   
   )
 }
 
