@@ -34,13 +34,13 @@ import ticket from "./company/ticket.png";
 import wallet from "./company/wallet.png";
 import ai from "./company/ai.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import carrent from "./carrent.webp";
+import jobit from "./jobit.webp";
 import tripguide from "./tripguide.png";
-import dropspot from "./dropspot.png";
-import poss from "./poss.png";
-import tatsat from "./tatsat.png";
-import kohsha from "./kohsha.png";
+import dropspot from "./dropspot.webp";
+import poss from "./poss.webp";
+import tatsat from "./tatsat.webp";
+import kohsha from "./kohsha.webp";
 
 export {
   bitcoin,

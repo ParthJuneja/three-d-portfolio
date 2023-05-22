@@ -2,10 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles'
-import { ComputerCanvas, EarthCanvas, ErtCanvas,NewGlobe } from './canvas'
-import { slideIn } from '../utils/motion';
-import NewEarth from './canvas/NewEarth';
-// import NewGlobe from './canvas/NewGlobe';
+
 
 
 const Hero = () => {
@@ -23,9 +20,6 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100 `}>We are team of talented Tech developers, Specialise in <br className='sm:block hidden'/> fulfilling the need of future businesses</p>
         </div>
       </div>
-      {/* <ErtCanvas/> */}
-      
-      {/* <NewGlobe/> */}
       
       <div className='mt-10 xxs:mt-0 relative sm:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -43,9 +37,9 @@ const Hero = () => {
           </div>
         </a>
       </div>
-     
+    
     </section>
-   
+  
   )
 }
 

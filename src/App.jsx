@@ -15,7 +15,6 @@ const App = () =>{
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center ">
           <Navbar/>
           <Hero/>
-          {/* <NewEarth /> */}
           <NewEarth/>
         </div>
       
@@ -30,9 +29,9 @@ const App = () =>{
           <StarsCanvas/>
         </div>
         <Whatsup/>
-       <div style={{float:'left'}}>
-       <ScrollUpButton /> 
-       </div>
+      <div style={{float:'left'}}>
+      <ScrollUpButton /> 
+      </div>
         <Footer/> 
       </div>
     // </BrowserRouter>
