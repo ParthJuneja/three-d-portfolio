@@ -40,15 +40,19 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "About Us",
+  },
+  {
+    id: "work",
+    title: "Services",
   },
   {
     id: "works",
-    title: "Products",
+    title: "Projects",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contact Us",
   },
   // {
   //   id: "product",
@@ -295,7 +299,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "/BonzoTambola",
+    source_code_link: "https://bonzo.vorpstech.com/",
   },
   {
     name: "Vows n Views",
