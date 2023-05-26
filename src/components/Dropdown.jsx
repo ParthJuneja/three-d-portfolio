@@ -9,6 +9,11 @@ function classNames(...classes) {
 
 export default function Example() {
   const navigate =useNavigate()
+
+  function handlehover(event){
+    document.getElementById('serv-button').click();
+  }
+
   function handleuiux(event){
     navigate('/uiux');
   }
@@ -24,7 +29,7 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center rounded-md bg-primary text-lg font-semibold text-secondary shadow-sm hover:text-white">
+        <Menu.Button id='serv-button' className="inline-flex w-full justify-center rounded-md bg-primary text-lg font-semibold text-secondary shadow-sm hover:text-white">
           Our Services
           <ChevronDownIcon className="-mr-1 h-6 w-6 text-secondary" aria-hidden="true" />
         </Menu.Button>
