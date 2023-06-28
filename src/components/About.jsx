@@ -1,5 +1,4 @@
 import React from 'react';
-import  {Tilt}  from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
@@ -12,8 +11,9 @@ import { Link } from 'react-router-dom';
 
 const ServiceCard = ({ title, icon, index }) => {
   return (
-    <Tilt className='xs:w-[200px] xxs:w-[200px] xxs:h-[180px] w-full'>
-      <motion.div variants={fadeIn("right","spring",0.5*index,0.75)} className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
+    <React.Fragment>
+    <div className='xs:w-[200px]   xxs:w-[156px] xxs:h-[250px] w-[100px]'>
+      <div variants={fadeIn("right","spring",0.5*index,0.75)} className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
         <div options={{
           max: 45,
           scale: 1,
@@ -23,37 +23,39 @@ const ServiceCard = ({ title, icon, index }) => {
           <img src={icon} alt={title} className='w-16 h-16 object-contain' />
           <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
         </div>
-      </motion.div>
-    </Tilt>
+      </div>
+    </div>
+    </React.Fragment>
   )
 }
 
 
 const About = () => {
   return (
-    <>
-      <motion.div variants={textVariant()} className='mt-5 xxs:mt-1'>
+    <React.Fragment>
+      <div variants={textVariant()} className='mt-5 xxs:mt-1'>
         <p className={styles.sectionSubText}>
           Introduction
         </p>
         <h2 className={styles.sectionHeadText}>
-          Overview
+          Introduction
         </h2>
-      </motion.div>
-
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl mx-auto leading-[30px]' >
-      we specialize in providing top-notch website development, application development, and digital advertising services. We have a team of experienced professionals who are dedicated to delivering the best results for our clients.
-      </motion.p>
-
-      <div className="mt-20 flex xs:justify-center xxs:justify-center flex-wrap xxs:gap-28 xxs:pl-3 xxs:mb-4 gap-10">
-        {services.map((service, index) => (
-          <Link to={`/${service.key}`}>
-            <ServiceCard key={service.title} index={index} {...service}/>
-          </Link>
-          ))}
       </div>
 
-    </>
+      <p className='mt-4 text-secondary text-[17px] max-w-3xl mx-auto leading-[30px]' >
+      we specialize in providing top-notch website development, application development, and digital advertising services. We have a team of experienced professionals who are dedicated to delivering the best results for our clients.
+      </p>
+
+      <div className="mt-20 flex xs:justify-center xxs:justify-center flex-wrap xxs:gap-10 xxs:pl-3 xxs:mb-4 gap-10">
+      {services.map((service, index) => (
+      <Link to={`/${service.key}`} key={service.title}>
+        <ServiceCard index={index} {...service} />
+      </Link>
+      ))}
+
+      </div>
+
+    </React.Fragment>
   )
 }
 

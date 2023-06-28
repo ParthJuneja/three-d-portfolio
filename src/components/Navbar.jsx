@@ -5,9 +5,11 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 import Dropdown from './Dropdown';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
 
+  const navigate= useNavigate();
   const [active, setActive] = useState("");
   const [Toggle, setToggle] = useState(false);
   return (
@@ -33,7 +35,7 @@ const Navbar = () => {
                 } hover:text-white text-[18px] font-medium cursor pointer`}
               onClick={() => setActive(link.title)}>
 
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a  onClick={()=>navigate(`${link.id}`)} >{link.title}</a>
 
             </li>
           ))}

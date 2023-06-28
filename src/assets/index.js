@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo.webp";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -21,22 +21,20 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-import bitcoin from "./company/bitcoin.png";
-import chat from "./company/chat.png";
-import ecommerce from "./company/ecommerce.png";
-import gps from "./company/gps.png";
-import notif from "./company/notif.png";
-import ticket from "./company/ticket.png";
-import wallet from "./company/wallet.png";
-import ai from "./company/ai.png";
-
+import meta from "./company/meta.webp";
+import shopify from "./company/shopify.webp";
+import starbucks from "./company/starbucks.webp";
+import tesla from "./company/tesla.webp";
+import bitcoin from './company/bitcoin.webp'
+import chat from "./company/chat.webp";
+import ecommerce from "./company/ecommerce.webp";
+import gps from "./company/gps.webp";
+import notif from "./company/notif.webp";
+import ticket from "./company/ticket.webp";
+import wallet from "./company/wallet.webp";
+import ai from "./company/ai.webp";
 import carrent from "./carrent.webp";
 import jobit from "./jobit.webp";
-import tripguide from "./tripguide.png";
 import dropspot from "./dropspot.webp";
 import poss from "./poss.webp";
 import tatsat from "./tatsat.webp";
@@ -81,6 +79,5 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
   ai
 };

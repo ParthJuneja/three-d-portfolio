@@ -3,9 +3,9 @@ import React from 'react'
 const Tnc = () => {
     return (
         <div className='wrapper'>
-            <div class="page">
+            <div className="page">
                 <div id="terms-and-conditions">
-                    <h1 align="center">TERMS & CONDITIONS</h1>
+                    <h1 align="center" style={{padding:'40px'}}>TERMS & CONDITIONS</h1>
                     <p>
                         A. GENERAL
                     </p>

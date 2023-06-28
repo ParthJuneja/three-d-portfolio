@@ -13,7 +13,7 @@ function Whatsup() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i  class="fa fa-whatsapp whatsapp-icon" style={{marginTop:'16px'}}></i>
+        <i  className="fa fa-whatsapp whatsapp-icon" style={{marginTop:'16px'}}></i>
       </a>
     </div>
  </div>

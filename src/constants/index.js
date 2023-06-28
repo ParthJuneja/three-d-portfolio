@@ -25,7 +25,6 @@ import {
   poss,
   tatsat,
   kohsha,
-  tripguide,
   threejs,
   chat,
   notif,
@@ -39,7 +38,7 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
+    id: "#about",
     title: "About Us",
   },
   // {
@@ -47,11 +46,11 @@ export const navLinks = [
   //   title: "Services",
   // },
   {
-    id: "works",
+    id: "#works",
     title: "Projects",
   },
   {
-    id: "contact",
+    id: "/ContactUs",
     title: "Contact Us",
   },
   // {
@@ -257,25 +256,26 @@ const testimonials = [
     testimonial:
       "I had the pleasure of working with Vorps Technologies for my website development project and I couldn't be happier with the results. I highly recommend Vorps Technologies for any website development needs and I look forward to future projects with them.",
     name: "Nitin",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    designation: "CEO",
+    company: "",
+    image:'../assets/nitin.webp',
+    
   },
   {
     testimonial:
       "I have had my website created by them, and I am so pleased with the results, it was a very complicated process but the team handled it seamlessly.I'm so happy with the product! Thank you guys!",
     name: "Huzaifa Nagaria",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    designation: "CEO",
+    company: "Dropspot",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "This company is very wonderful and their employees are also very smart and friendly, I gave a project to this company which I was satisfied with their work. I recommend this company for any tech job",
     name: "Data Operator",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    designation: "Operator",
+    company: "",
+    // image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 

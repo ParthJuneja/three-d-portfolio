@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar  from './Navbar';
 import Contact from './Contact';
 import Footer from './Footer';
-import { StarsCanvas } from './canvas';
+// import { StarsCanvas } from './canvas';
 
 function ContactUS() {
   return (
@@ -11,7 +11,7 @@ function ContactUS() {
     <br />
     <br />
     <Contact />
-    <StarsCanvas/>
+    {/* <StarsCanvas/> */}
     <br />
     <br />
     <Footer /> 

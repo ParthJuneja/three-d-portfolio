@@ -40,3 +40,114 @@
 .read-the-docs {
   color: #888;
 }
+
+.Touchbtn{
+  background-color: #646cffaa;
+  padding: 10px;
+  margin: 70px 0px 20px 0px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 600px;
+
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, #646cffaa, );
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, #646cffaa,);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 60px;
+  margin: 0 40px;
+  display: inline;
+}
+
+.Awards{
+  display:flex;
+  justify-content:center;
+}
+.Awards img{
+  margin: 30px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Awards{
+    display:flex;
+    justify-content:center;
+  }
+  .Awards img{
+    margin: 30px 30px;
+    height: 60px;
+  }
+}
+
+.certifybtn{
+  justify-content:space-between;display:flex;
+}
+.nextrow{
+  display:flex;
+  margin: 0px 0px 0px 0px;
+}
+
+.laybtn{
+  margin: 0px 0px 0px 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .certifybtn{
+    justify-content:center;display:inline;
+    
+  }
+  
+  .laybtn{
+    margin: 30px 0px 0px 0px;
+  }
+  .nextrow{
+    display:flex;
+    margin: 30px 0px 0px 0px;
+    justify-content: center;
+  }
+    
+}

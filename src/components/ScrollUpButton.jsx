@@ -28,11 +28,11 @@ const ScrollUpButton = () => {
 
   return (
     <>
-      <div align="left" style={{ marginLeft: "30px" }}>
+      <div align="left" >
         <Button style={{padding:0, width: "50px"}}>
           <div align="left" style={{ marginLeft: "30px", height:"50px",width:"50px" }}>
             <i
-              class="fa fa-angle-double-up"
+              className="fa fa-angle-double-up"
               onClick={scrollToTop}
               style={{ display: visible ? "block" : "none" }}
             ></i>
